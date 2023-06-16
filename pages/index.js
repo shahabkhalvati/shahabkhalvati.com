@@ -1,4 +1,4 @@
-import DefaultLayout from "@/app/layouts/default-layout";
+import DefaultLayout from '@/app/layouts/default-layout'
 import PageContent, { meta } from './sample-mdx-page.mdx'
 
 const Page = ({ children }) => (
