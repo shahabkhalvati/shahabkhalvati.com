@@ -1,4 +1,4 @@
-export function Sample() {
+export default function SampleComponent() {
   return (
     <ul>
       <li>this</li>
