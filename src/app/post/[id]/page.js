@@ -1,6 +1,5 @@
 import MDXContent from '@/app/components/mdx-content'
 import { getAllPosts, loadPost } from '@/blog'
-import { MDXRemote } from 'next-mdx-remote/rsc'
 
 export const generateStaticParams = async () => {
   const allPosts = await getAllPosts()
