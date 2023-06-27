@@ -1,10 +1,6 @@
-import dynamic from 'next/dynamic'
+import MDXContent from '@/app/components/mdx-content'
 import { getAllPosts, loadPost } from '@/blog'
 import { MDXRemote } from 'next-mdx-remote/rsc'
-
-const components = {
-  SampleComponent: dynamic(() => import('@/app/sample-component')),
-}
 
 export const generateStaticParams = async () => {
   const allPosts = await getAllPosts()
@@ -22,7 +18,7 @@ export default async function PostPage({ params }) {
   return (
     <div>
       <h1>{data.metadata.title}</h1>
-      <MDXRemote source={content} components={components} />
+      <MDXContent source={content} />
     </div>
   )
 }
