@@ -40,7 +40,11 @@ export default async function CollectionPage({ params: { tag } }) {
   if (isEmptyArray(taggedPosts)) {
     return (
       <main>
-        <Image src={AshamedGif} alt="ashamed puppet" />
+        <Image
+          src={AshamedGif}
+          alt="ashamed puppet"
+          style={{ borderRadius: '0.15em' }}
+        />
         <p style={{ marginTop: '1em' }}>Nothing yet…</p>
         <Link href="/">See what&apos;s available already?</Link>
       </main>
