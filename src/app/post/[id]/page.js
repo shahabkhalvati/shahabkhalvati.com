@@ -14,7 +14,7 @@ export async function generateMetadata({ params }, parent) {
 
 export const generateStaticParams = async () => {
   const allPosts = await getAllPosts()
-  return allPosts.map((post) => ({
+  return allPosts.map(post => ({
     params: {
       id: post.name,
     },

@@ -5,7 +5,7 @@ import { map, sort } from '@/fns'
 
 const postsDirectory = path.join(process.cwd(), '_posts')
 
-const loadFile = async (filename) => {
+const loadFile = async filename => {
   const filePath = path.join(postsDirectory, filename)
 
   const { data, content } = matter.read(filePath)
@@ -18,22 +18,30 @@ const loadFile = async (filename) => {
   }
 }
 
-export const loadPost = (postId) => loadFile(`${postId}.mdx`).then(cleanup)
+export const loadPost = postId => loadFile(`${postId}.mdx`).then(cleanup)
 
-const cleanup = (file) => ({
+const cleanup = file => ({
   ...file,
   title: file.metadata.title,
   date: new Date(file.metadata.date || file.name),
+  metadata: { ...file.metadata, tags: file.metadata.tags || [] },
 })
 
 const getPostSlugs = () =>
   fs
     .readdir(postsDirectory)
     .then(map(loadFile))
-    .then((promises) => Promise.all(promises))
+    .then(promises => Promise.all(promises))
     .then(map(cleanup))
 
 const byDate = ({ date: a }, { date: b }) => b - a
+
+export const predicates = {
+  withTag:
+    tag =>
+    ({ metadata: { tags } }) =>
+      tags.includes(tag),
+}
 
 export function getAllPosts() {
   return getPostSlugs().then(sort(byDate))

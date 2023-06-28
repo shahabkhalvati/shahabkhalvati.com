@@ -11,10 +11,10 @@ export default function WebsiteHeader() {
         </Link>
         <nav className="site-nav">
           <div>
-            <Link href="/favorites" className="page-link">
+            <Link href="/collection/favorites" className="page-link">
               Favorites
             </Link>
-            <Link href="/photos" className="page-link">
+            <Link href="/collection/photos" className="page-link">
               Photos
             </Link>
             <Link href="/about" className="page-link">
