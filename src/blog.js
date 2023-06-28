@@ -18,7 +18,7 @@ const loadFile = async (filename) => {
   }
 }
 
-export const loadPost = (postId) => loadFile(`${postId}.mdx`)
+export const loadPost = (postId) => loadFile(`${postId}.mdx`).then(cleanup)
 
 const cleanup = (file) => ({
   ...file,

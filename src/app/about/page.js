@@ -1,5 +1,15 @@
+import MainTitle from '../components/main-title'
 import Content from './content.mdx'
 
+export const metadata = {
+  title: 'About | shahabkhalvati.com',
+}
+
 export default async function ContentPage() {
-  return <Content />
+  return (
+    <article>
+      <MainTitle title="About" />
+      <Content />
+    </article>
+  )
 }

@@ -4,7 +4,10 @@ const options = {
   day: 'numeric',
 }
 
+export const getDateText = (dateObj) =>
+  dateObj.toLocaleDateString(undefined, options)
+
 export default function DateDisplay({ dateObj }) {
-  const displayDate = dateObj.toLocaleDateString(undefined, options)
+  const displayDate = getDateText(dateObj)
   return <time dateTime={dateObj.toLocaleString()}>{displayDate}</time>
 }
