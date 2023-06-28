@@ -13,7 +13,7 @@ export default async function Home() {
     <main className="home h-feed">
       <ul className="post-list">
         {posts.map((post, i) => (
-          <li className="h-entry" key={i}>
+          <li className={`h-entry ${post.metadata.tags.join(' ')}`} key={i}>
             <PostListing post={post} />
           </li>
         ))}

@@ -8,6 +8,7 @@ import Link from 'next/link'
 
 const TagTitles = {
   favorites: 'Favorites',
+  photos: 'Photos',
 }
 
 const getTagTitle = flip2(prop)(TagTitles)
@@ -27,10 +28,10 @@ export const generateStaticParams = async () => {
   return unique(tags).map(tag => ({ params: { tag } }))
 }
 
-export default async function CollectionPage({ params }) {
-  const tag = getTagTitle(params.tag)
+export default async function CollectionPage({ params: { tag } }) {
+  const tagTitle = getTagTitle(tag)
 
-  if (!tag) {
+  if (!tagTitle) {
     redirect('/')
   }
 
@@ -50,7 +51,7 @@ export default async function CollectionPage({ params }) {
     <main className="home h-feed">
       <ul className="post-list">
         {taggedPosts.map((post, i) => (
-          <li className="h-entry" key={i}>
+          <li className={`h-entry ${post.metadata.tags.join(' ')}`} key={i}>
             <PostListing post={post} />
           </li>
         ))}

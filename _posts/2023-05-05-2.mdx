@@ -1,0 +1,16 @@
+---
+title: On Css-in-JS
+date: 2023-05-05T17:29
+---
+
+What I think is close to:
+
+<YouTubePlayer src="https://www.youtube-nocookie.com/embed/EEJBJGNmzkI" />
+
+My two cents on styling:
+
+- It sure depends on the context and requirements. Usually:
+- a minimal global css file, that handles overall look and feel for the website. Ex: fonts and typography, spacing, responsive design targeted media queries, colors, links and hovers.
+- Global classes for common use cases (ex: image and caption in a blog, meta texts, code)
+- CSS in JS for specialized cases, unique components, samples, styles related to code heavy components.
+- Prefer CSS to JavaScript for styling when possible. Hovers, media queries, transition animations and the sort, all should be handled natively by CSS rather than JavaScript – don’t reinvent the wheel.

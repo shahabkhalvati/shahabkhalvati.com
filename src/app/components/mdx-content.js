@@ -2,7 +2,9 @@ import dynamic from 'next/dynamic'
 import { MDXRemote } from 'next-mdx-remote/rsc'
 
 const DefaultComponents = {
-  SampleComponent: dynamic(() => import('@/app/sample-component')),
+  YouTubePlayer: dynamic(() => import('./youtube-player')),
+  PostImage: dynamic(() => import('./post-image')),
+  Carousel: dynamic(() => import('./carousel')),
 }
 
 export default function MDXContent({ source, components = {} }) {

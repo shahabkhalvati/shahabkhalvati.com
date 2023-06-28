@@ -880,6 +880,7 @@ video {
   margin-right: var(--spacing);
   flex: 0;
   max-height: calc(80vh - 2 * var(--spacing));
+  height: revert-layer;
 }
 
 .post-content .carousel {
