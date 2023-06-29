@@ -28,7 +28,7 @@ export default async function PostListing({ post }) {
     title,
     name,
     content,
-    metadata: { summary },
+    metadata: { summary, noContentAsSummary },
   } = post
 
   const href = `/post/${name}`
@@ -40,9 +40,13 @@ export default async function PostListing({ post }) {
       ) : (
         <MicroPostHeading {...{ date, href }} />
       )}
-      <div className="e-content">
-        <MDXContent source={summary || content} />
-      </div>
+      {hasTitle(post) && !summary && noContentAsSummary ? (
+        <div style={{ marginTop: 'var(--spacing-2-neg)' }} />
+      ) : (
+        <div className="e-content">
+          <MDXContent source={summary || content} />
+        </div>
+      )}
     </>
   )
 }
