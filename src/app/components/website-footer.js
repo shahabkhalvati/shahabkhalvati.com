@@ -22,12 +22,13 @@ export default function WebsiteFooter() {
               check <Link href="/about">About</Link>
             </p>
           </div>
-          <div className="footer-row">
+          {/* TODO: generate the feed
+            <div className="footer-row">
             <p className="text">
               Subscribe{' '}
               <a href="https://shahabkhalvati.com/feed.xml">via RSS</a>
             </p>
-          </div>
+          </div> */}
           <div className="footer-row">
             <p className="text">© {CurrentYear} Shahab Khalvati</p>
           </div>
