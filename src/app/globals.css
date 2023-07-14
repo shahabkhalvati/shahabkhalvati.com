@@ -307,11 +307,11 @@
   --font-code-smoothing-webkit: auto;
 
   --forecolor: #353535;
-  --background-color: #f9f9f9;
+  --background-color: #F7F3E8;
   --ui-link-color: #111111;
-  --link-color: #2a7ae2;
+  --link-color: #2A7AE2;
   --link-color-hover: #111111;
-  --ui-color: #e8e8e8;
+  --ui-color: #E8E8E8;
 }
 
 @media screen and (min-width: 800px) {
@@ -327,9 +327,8 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-/*  --forecolor: #FAF3DD; */
-    --forecolor: #D2C6CA;
-    --background-color: #0f1a20;
+    --forecolor: #F7F3E8;
+    --background-color: #0F1A20;
     --ui-link-color: #4EA5D9;
     --link-color: #4EA5D9;
     --link-color-hover: #4EA5D9;
@@ -682,7 +681,7 @@ pre > code {
   text-align: left;
   font-family: var(--font-ui);
   text-transform: uppercase;
-  opacity: 0.5;
+  opacity: 0.65;
   -moz-osx-font-smoothing: var(--font-ui-smoothing-moz);
   -webkit-font-smoothing: var(--font-ui-smoothing-webkit);
 }
