@@ -5,10 +5,36 @@ import { redirect } from 'next/navigation'
 import Image from 'next/image'
 import AshamedGif from './ashamed.gif'
 import Link from 'next/link'
+import ExternalLink from '@/app/components/external-link'
+import MainTitle from '@/app/components/main-title'
 
 const TagTitles = {
-  favorites: 'Favorites',
+  favorites: 'Favorite Findings',
   photos: 'Photos',
+  'on-software': 'Meditations On Software',
+}
+
+const TagHeader = {
+  'on-software': () => (
+    <div style={{ marginBottom: 'calc(2 * var(--spacing-2))' }}>
+      <MainTitle title="Meditations On Software" />
+      <p>
+        My wanderings on software, on code, coding, and random things related.
+        <br />
+        Sometimes the fruit,
+        <br />
+        oftentimes just the path and curious whys.
+      </p>
+      <p>
+        I post this same content also on{' '}
+        <ExternalLink
+          href="https://meditationsonsoftware.substack.com"
+          title="Substack"
+        />
+        .
+      </p>
+    </div>
+  ),
 }
 
 const getTagTitle = flip2(prop)(TagTitles)
@@ -52,8 +78,11 @@ export default async function CollectionPage({ params: { tag } }) {
     )
   }
 
+  const CollectionHeader = TagHeader[tag] || false
+
   return (
     <main className="home h-feed">
+      {CollectionHeader && <CollectionHeader />}
       <ul className="post-list">
         {taggedPosts.map((post, i) => (
           <li className={`h-entry ${post.metadata.tags.join(' ')}`} key={i}>

@@ -10,17 +10,18 @@ export default function WebsiteHeader() {
           Khalvati
         </Link>
         <nav className="site-nav">
-          <div>
-            <Link href="/collection/favorites" className="page-link">
-              Favorites
-            </Link>
-            <Link href="/collection/photos" className="page-link">
-              Photos
-            </Link>
-            <Link href="/about" className="page-link">
-              About
-            </Link>
-          </div>
+          <Link href="/about" className="page-link">
+            About Me
+          </Link>
+          <Link href="/collection/favorites" className="page-link">
+            Favorite Findings
+          </Link>
+          <Link href="/collection/photos" className="page-link">
+            Photos
+          </Link>
+          <Link href="/collection/on-software" className="page-link">
+            Meditations on Software
+          </Link>
         </nav>
       </div>
     </header>
