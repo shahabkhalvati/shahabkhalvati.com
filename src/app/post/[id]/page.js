@@ -14,7 +14,10 @@ export async function generateMetadata({ params }, parent) {
 
   return {
     title: title || `${dateText} | shahabkhalvati.com`,
-    description: metadata.summary || guessFirstP(content),
+    description:
+      metadata.description ||
+      guessFirstP(metadata.summary) ||
+      guessFirstP(content),
   }
 }
 
