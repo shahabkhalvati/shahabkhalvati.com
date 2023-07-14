@@ -4,7 +4,7 @@ import MDXContent from '@/app/components/mdx-content'
 import { getAllPosts, loadPost } from '@/blog'
 
 const guessFirstP = content => {
-  const lines = content.split('\n')
+  const lines = content.trim().split('\n')
   return lines.slice(0, lines.indexOf('')).join('\n')
 }
 
@@ -15,9 +15,7 @@ export async function generateMetadata({ params }, parent) {
   return {
     title: title || `${dateText} | shahabkhalvati.com`,
     description:
-      metadata.description ||
-      guessFirstP(metadata.summary) ||
-      guessFirstP(content),
+      metadata.description || guessFirstP(metadata.summary || content || ''),
   }
 }
 

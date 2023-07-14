@@ -18,6 +18,7 @@ export async function generateMetadata({ params }, parent) {
 
   return {
     title: `${title} | shahabkhalvati.com`,
+    description: `List of recent ${title}`,
   }
 }
 
