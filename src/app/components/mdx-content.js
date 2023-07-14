@@ -4,6 +4,7 @@ import { MDXRemote } from 'next-mdx-remote/rsc'
 const DefaultComponents = {
   Carousel: dynamic(() => import('./carousel')),
   ExternalLink: dynamic(() => import('./external-link')),
+  Link: dynamic(() => import('next/link')),
   PostImage: dynamic(() => import('./post-image')),
   YouTubePlayer: dynamic(() => import('./youtube-player')),
 }

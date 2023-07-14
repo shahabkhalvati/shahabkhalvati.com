@@ -22,6 +22,14 @@ const PostHeading = ({ date, href, title }) => (
   </>
 )
 
+const ReadMore = ({ href }) => (
+  <p>
+    <Link href={href} className="post-meta" style={{ opacity: 1 }}>
+      Read more
+    </Link>
+  </p>
+)
+
 export default async function PostListing({ post }) {
   const {
     date,
@@ -45,6 +53,7 @@ export default async function PostListing({ post }) {
       ) : (
         <div className="e-content">
           <MDXContent source={summary || content} />
+          {!!summary && <ReadMore href={href} />}
         </div>
       )}
     </>
