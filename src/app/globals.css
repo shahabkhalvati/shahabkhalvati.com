@@ -288,9 +288,11 @@
   --font-title-smoothing-moz: grayscale;
   --font-title-smoothing-webkit: antialiased;
 
-  /*   --font-mono: "test söhne mono", suisse-intl-mono, monospace;
+  /*
+  --font-mono: "test söhne mono", suisse-intl-mono, monospace;
   --font-mono-smoothing-moz: grayscale;
-  --font-mono-smoothing-webkit: antialiased; */
+  --font-mono-smoothing-webkit: antialiased;
+  */
 
   --font-mono-size: calc(var(--font-body-size) * 0.85);
   --font-mono-line-height: 1.4em;
@@ -319,12 +321,13 @@
       calc(15px + 8 * ((100vw - 810px) / 960)),
       19px
     );
+    --font-body-line-height: 1.33em;
   }
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-/*     --forecolor: #FAF3DD; */
+/*  --forecolor: #FAF3DD; */
     --forecolor: #D2C6CA;
     --background-color: #0f1a20;
     --ui-link-color: #4EA5D9;
@@ -701,8 +704,12 @@ pre > code {
   margin-bottom: var(--spacing-2);
 }
 
-.post-title {
-  font-size: clamp(26px, calc(26px + 19 * ((100vw - 320px) / 700)), 36px);
+article > header > h1,
+article > header > h2,
+article > header > h3,
+article > h1,
+article > h2,
+article > h3 {
   letter-spacing: -1px;
   line-height: 1;
   font-family: var(--font-title);
@@ -711,8 +718,26 @@ pre > code {
 }
 
 h1 {
-  --adoptive-font-size: clamp(26px, calc(26px + 19 * ((100vw - 320px) / 700)), 36px);
+  --adoptive-font-size: clamp(26px, calc(24px + 17 * ((100vw - 320px) / 700)), 36px);
   font-size: var(--adoptive-font-size);
+}
+
+h2 {
+  --adoptive-font-size: clamp(26px, calc(24px + 17 * ((100vw - 320px) / 700)), 36px);
+  font-size: calc(var(--adoptive-font-size) * 0.65);
+}
+
+p + h2 {
+  margin-top: 1.25em;
+}
+
+h3 {
+  --adoptive-font-size: clamp(26px, calc(24px + 17 * ((100vw - 320px) / 700)), 36px);
+  font-size: calc(var(--adoptive-font-size) * 0.5);
+}
+
+p + h3 {
+  margin-top: 1em;
 }
 
 .post-list h1 {
