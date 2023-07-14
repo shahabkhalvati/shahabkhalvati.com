@@ -574,16 +574,13 @@ pre > code {
   -moz-osx-font-smoothing: var(--font-ui-smoothing-moz);
   -webkit-font-smoothing: var(--font-ui-smoothing-webkit);
 }
-.site-nav .page-link:not(:first-child) {
-  margin-left: var(--spacing);
-}
 
 .site-header > .wrapper {
   display: flex;
   justify-content: space-between;
 }
 
-.site-header > .wrapper .site-nav {
+.site-header > .wrapper .site-nav > ul {
   display: flex;
   flex-direction: column;
   align-items: end;

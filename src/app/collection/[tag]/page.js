@@ -16,24 +16,26 @@ const TagTitles = {
 
 const TagHeader = {
   'on-software': () => (
-    <div style={{ marginBottom: 'calc(2 * var(--spacing-2))' }}>
-      <MainTitle title="Meditations On Software" />
-      <p>
-        My wanderings on software, on code, coding, and random things related.
-        <br />
-        Sometimes the fruit,
-        <br />
-        oftentimes just the path and curious whys.
-      </p>
-      <p>
-        I post this same content also on{' '}
-        <ExternalLink
-          href="https://meditationsonsoftware.substack.com"
-          title="Substack"
-        />
-        .
-      </p>
-    </div>
+    <aside style={{ marginBottom: 'calc(2 * var(--spacing-2))' }}>
+      <article>
+        <MainTitle title="Meditations On Software" />
+        <p>
+          My wanderings on software, on code, coding, and random things related.
+          <br />
+          Sometimes the fruit,
+          <br />
+          oftentimes just the path and curious whys.
+        </p>
+        <p>
+          I post this same content also on{' '}
+          <ExternalLink
+            href="https://meditationsonsoftware.substack.com"
+            title="Substack"
+          />
+          .
+        </p>
+      </article>
+    </aside>
   ),
 }
 
@@ -81,15 +83,17 @@ export default async function CollectionPage({ params: { tag } }) {
   const CollectionHeader = TagHeader[tag] || false
 
   return (
-    <main className="home h-feed">
+    <>
       {CollectionHeader && <CollectionHeader />}
-      <ul className="post-list">
-        {taggedPosts.map((post, i) => (
-          <li className={`h-entry ${post.metadata.tags.join(' ')}`} key={i}>
-            <PostListing post={post} />
-          </li>
-        ))}
-      </ul>
-    </main>
+      <main className="home h-feed">
+        <ul className="post-list">
+          {taggedPosts.map((post, i) => (
+            <li className={`h-entry ${post.metadata.tags.join(' ')}`} key={i}>
+              <PostListing post={post} />
+            </li>
+          ))}
+        </ul>
+      </main>
+    </>
   )
 }
