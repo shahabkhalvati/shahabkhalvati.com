@@ -687,7 +687,7 @@ pre > code {
   -webkit-font-smoothing: var(--font-ui-smoothing-webkit);
 }
 
-.h-entry.photos div.e-content > p:first-of-type {
+.h-entry h4 {
   font-size: 0.85em;
   text-transform: uppercase;
   font-weight: 600;
@@ -707,14 +707,22 @@ pre > code {
 article > header > h1,
 article > header > h2,
 article > header > h3,
+article > header > h4,
 article > h1,
 article > h2,
-article > h3 {
+article > h3,
+article > h4 {
   letter-spacing: -1px;
   line-height: 1;
   font-family: var(--font-title);
   -moz-osx-font-smoothing: var(--font-title-smoothing-moz);
   -webkit-font-smoothing: var(--font-title-smoothing-webkit);
+  font-variant-numeric: tabular-nums;
+}
+
+article > header > h4,
+article > h4 {
+  letter-spacing: unset;
 }
 
 h1 {
@@ -740,6 +748,12 @@ p + h3 {
   margin-top: 1em;
 }
 
+h4 {
+  font-size: 0.9em;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
 .post-list h1 {
   font-size: calc(var(--adoptive-font-size) * 0.75);
 }
@@ -752,30 +766,6 @@ p + h3 {
 
 .post-content {
   margin-bottom: var(--spacing-2);
-}
-.post-content h2 {
-  font-size: 24px;
-}
-@media screen and (max-width: 800px) {
-  .post-content h2 {
-    font-size: 24px;
-  }
-}
-.post-content h3 {
-  font-size: 22px;
-}
-@media screen and (max-width: 800px) {
-  .post-content h3 {
-    font-size: 22px;
-  }
-}
-.post-content h4 {
-  font-size: 20px;
-}
-@media screen and (max-width: 800px) {
-  .post-content h4 {
-    font-size: 20px;
-  }
 }
 
 .wip > span.post-meta::after,
