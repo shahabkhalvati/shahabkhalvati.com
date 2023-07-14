@@ -5,6 +5,7 @@ import PostListing from '@/app/components/post-listing'
 
 export const metadata = {
   title: 'shahabkhalvati.com | All Posts',
+  description: 'Recent thoughts and posts on, stuff',
 }
 
 export default async function Home() {

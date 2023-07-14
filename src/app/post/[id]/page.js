@@ -3,12 +3,18 @@ import MainTitle from '@/app/components/main-title'
 import MDXContent from '@/app/components/mdx-content'
 import { getAllPosts, loadPost } from '@/blog'
 
+const guessFirstP = content => {
+  const lines = content.split('\n')
+  return lines.slice(0, lines.indexOf('')).join('\n')
+}
+
 export async function generateMetadata({ params }, parent) {
-  const { title, date } = await loadPost(params.id)
+  const { title, date, content, metadata } = await loadPost(params.id)
   const dateText = getDateText(date)
 
   return {
     title: title || `${dateText} | shahabkhalvati.com`,
+    description: metadata.summary || guessFirstP(content),
   }
 }
 
