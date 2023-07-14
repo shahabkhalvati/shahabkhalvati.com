@@ -33,15 +33,15 @@ export default async function PostPage({ params }) {
 
   return (
     <>
-      <header className="post-header">
-        {!!title ? (
-          <MainTitle title={title} />
-        ) : (
+      {!!title ? (
+        <MainTitle title={title} />
+      ) : (
+        <header className="post-header">
           <p className="post-meta">
             <DateDisplay dateObj={date} />
           </p>
-        )}
-      </header>
+        </header>
+      )}
       <div className="post-content e-content">
         <MDXContent source={content} />
       </div>
