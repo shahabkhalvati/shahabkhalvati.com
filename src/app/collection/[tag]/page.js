@@ -27,7 +27,7 @@ const TagHeader = {
           oftentimes just the path and curious whys.
         </p>
         <p>
-          I post this same content also on{' '}
+          I aim to post this same content also on{' '}
           <ExternalLink
             href="https://meditationsonsoftware.substack.com"
             title="Substack"
