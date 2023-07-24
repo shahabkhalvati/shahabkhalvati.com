@@ -514,6 +514,19 @@ code {
 
 code {
   padding: 1px 5px;
+
+  /* font-family: var(--font-mono);
+  font-size: var(--font-mono-size);
+  letter-spacing: var(--font-mono-letter-spacing);
+  line-height: var(--font-mono-line-height);
+  -moz-osx-font-smoothing: var(--font-mono-smoothing-moz);
+  -webkit-font-smoothing: var(--font-mono-smoothing-webkit); */
+
+  font-family: var(--font-code);
+  -moz-osx-font-smoothing: var(--font-code-smoothing-moz);
+  -webkit-font-smoothing: var(--font-code-smoothing-webkit);
+  font-size: var(--font-code-size);
+  tab-size: 2;
 }
 
 pre {
@@ -521,8 +534,12 @@ pre {
   overflow-x: scroll;
 }
 
-br + code {
+br + code,
+p > code:first-child {
   margin-left: -1ex;
+}
+
+br + code {
   margin-top: 0.5ex;
   margin-bottom: 0.5ex;
   display: inline-block;
@@ -534,11 +551,6 @@ pre > code {
   border: 0;
   padding-right: 0;
   padding-left: 0;
-  font-family: var(--font-code);
-  -moz-osx-font-smoothing: var(--font-code-smoothing-moz);
-  -webkit-font-smoothing: var(--font-code-smoothing-webkit);
-  font-size: var(--font-code-size);
-  tab-size: 2;
 }
 
 .e-content > pre {
