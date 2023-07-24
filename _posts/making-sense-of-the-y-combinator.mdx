@@ -87,10 +87,14 @@ We're back.
 We have an infinite execution – a recursive function without a base-case to halt it.
 
 Let's revisit our factorial function:  
-`n => n === 1 ? n : n * factorial(n - 1)` but what factorial? It's not defined.  
+`n => n === 1 ? n : n * factorial(n - 1)`  
+but what `factorial`? It's not defined.  
 We need a function to call, and cannot reference it by name. Alternative?  
-We could pass it as a parameter:  
-`factorial => n => n === 1 ? n : n * factorial(n - 1)`.
+We could pass it as a parameter:
+
+```
+factorial => n => n === 1 ? n : n * factorial(n - 1)
+```
 
 Recall loop function from before: `f => f(f)`. Applying the same idea, we would have:
 

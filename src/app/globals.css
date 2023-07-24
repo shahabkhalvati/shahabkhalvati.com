@@ -535,8 +535,8 @@ pre {
 }
 
 br + code,
-p > code:first-child {
-  margin-left: -1ex;
+.post-list p > code:first-child {
+  margin-left: -0.8ex;
 }
 
 br + code {
