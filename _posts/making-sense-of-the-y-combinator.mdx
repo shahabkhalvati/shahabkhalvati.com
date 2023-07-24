@@ -1,0 +1,221 @@
+---
+title: 'Making sense of the Y‑Combinator'
+date: 2023-07-24
+tags:
+  - on-software
+description: 'Y = f => (x => x(x))(x => f(y => x(x)(y))). Whaaat?'
+summary: |
+  `Y = f => (x => x(x))(x => f(y => x(x)(y)))`  
+  Saw it and couldn't make much sense of it. On my nth try though…
+---
+
+Let's start by reading why Y-Combinator accelerator group went with the name:
+
+> The Y combinator is one of the coolest ideas in computer science. It's also a metaphor for what we do. It's a program that runs programs; we're a company that helps start companies.  
+> – <ExternalLink
+>   title="Why did you choose the name “Y Combinator?"
+>   href="https://www.ycombinator.com/faq#why-did-you-choose-the-name-y-combinator"
+> />
+
+"A program that runs programs" seems cool, but what is it like?  
+`Y = λf.(λx.f(x x))(λx.f(x x))`  
+And in JavaScript:  
+`Y = f => (x => x(x))(x => f(y => x(x)(y)))`.
+
+How is this helpful?  
+Essentially, it helps us write recursive code when recursion is not supported by the programming language; and so is not needed with most modern ones.  
+Though let's explore it more together, it'll be fun!
+
+Let's start with the classic recursion example, factorial:
+
+```
+const factorial = n => (n === 1 ? n : n * factorial(n - 1))
+factorial(5) // 120
+```
+
+This works because the function refers to itself by name. What if that's not possible?
+Imagine mapping over an array, using an anonymous function.  
+Or need for a recursive arrow function to be passed as a property. Like:
+
+```
+<Computation
+  input={5}
+  calculation={n => (n === 1 ? n : n * factorial(n - 1))}
+/>
+```
+
+Won't work.
+
+Again, yes, there are workarounds, and most of them are better solutions;  
+But we are here for fun.
+
+So let's use the Y-combinator:
+
+```
+<Computation
+	input={5}
+	calculation={Y(factorial => n => n === 1 ? n : n * factorial(n - 1))}
+/>
+```
+
+How does it work?  
+We need to learn some calculus; but you are not here for that. Let's tackle if differently: Y-Combinator The hard way.
+
+Let's move back a bit. Imagine a function.  
+We want more of it.  
+We call it, and we get even more.  
+`f => f.f`, or `f => f(f)`.
+
+But a function definition does not do anything. We need to run it, and for that, it requires an argument.  
+But what?  
+How about itself?
+
+```
+const loop = f => f.f
+loop(loop) // Maximum call stack size exceeded
+```
+
+Forever execution! We are getting there.  
+But one may ask, aren't we still using the name to implement recursion?  
+Yeah…  
+Yet, similar to how: `(x => x + 1)(3) // 4`  
+we could write: `(fn => fn(fn))(fn => fn(fn))`.  
+We're back.
+
+We have an infinite execution – a recursive function without a base-case to halt it.
+
+Let's revisit our factorial function:  
+`n => n === 1 ? n : n * factorial(n - 1)` but what factorial? It's not defined.  
+We need a function to call, and cannot pass reference it by name. Alternative?  
+We could pass it as a parameter:  
+`factorial => n => n === 1 ? n : n * factorial(n - 1)`.
+
+Recall loop function from before: `f => f(f)`. Applying the same idea, we would have:  
+`factorial => n => n === 1 ? n : n * factorial(factorial)(n - 1)`.
+We ran `loop` like: `loop(loop)`. So too for our factorial function, we should:  
+`factorial(factorial)(5)` and get back `120`!
+
+So far we have:
+
+```
+const rec_factorial =
+	factorial => n => n === 1 ? n : n * factorial(factorial)(n - 1)
+
+rec_factorial(rec_factorial)(5) // 120
+```
+
+Let's refactor it using the `loop` function we had:
+
+```
+const loop = f => f(f)
+
+const factorial = fact => n => n === 1 ? n : n * loop(fact)(n - 1)
+loop(factorial)(5) // 120
+```
+
+Two problems though. It's not quite right to
+
+1. know we should pass `factorial` to `loop` to execute it on `loop(factorial)(5)`. It belongs to `factorial` implementation.
+2. mix `loop` with `factorial`'s internal logic. `loop(fact)(n-1)` is mixing different matters; it's noisy.
+
+For the first problem, we move `loop` into the `factorial` implementation:
+
+```
+const loop = f => f(f)
+const factorial = fn => loop(fact => n => n === 1 ? n : n * loop(fact)(n - 1))(fn)
+
+factorial(5) // 120
+```
+
+Note we can remove `fn`, similar to:
+
+```
+const increase = x => x + 1
+[1, 2, 3].map(x => increase(x))
+[1, 2, 3].map(increase)
+```
+
+We can write:
+
+```
+const loop = f => f(f)
+const factorial = loop(fact => n => n === 1 ? n : n * loop(fact)(n - 1))
+
+factorial(5) // 120
+```
+
+And for the second issue, we could use a helper:
+
+```
+const loop = f => f(f)
+const factorial = loop(fact => n => {
+	const f = loop(fact)
+	return n === 1 ? n : n * f(n - 1)
+})
+```
+
+The return line is more readable now, but the function…  
+It contains the logic for both recursion,  
+and factorial computation.  
+How about we separate them?
+
+```
+const loop = f => f(f)
+const recursion = fn => loop(g => n => {
+	const loop_g = loop(g) // replace g, with loop(g), so fn does not need to know about it
+
+	return fn(loop_g)(n)
+})
+
+const factorial_logic = fact => n => {
+	return n === 1 ? n : n * fact(n - 1)
+}
+
+const factorial = recursion(factorial_logic)
+
+factorial(5) // 120
+```
+
+Much better.  
+And we should be able to remove `n` inside `recursion` function, right?
+
+```
+const recursion = fn => loop(g => {
+	const loop_g = loop(g) // Maximum call stack size exceeded
+	return fn(loop_g)
+})
+```
+
+Our intermediary function `loop_g` is getting executed, but it should have waited for a parameter (the one we just removed).
+Let's fix it:
+
+```
+const recursion = fn => loop(g => {
+	const loop_g = n => loop(g)(n)
+	return fn(loop_g)
+})
+```
+
+Improve the styling now and make things inline:
+
+```
+const loop = f => f(f)
+const recursion = fn => loop(g => fn(n => loop(g)(n)))
+const factorial = recursion(fact => n => n === 1 ? n : n * fact(n - 1))
+
+factorial(5) // 120
+```
+
+Now remove the `loop` function by changing:
+
+- `loop(g)` to `g(g)`
+- `loop(g => ...)` to `(f => f(f))(g => ...)`
+
+We would have:
+
+```
+const recursion = fn => (f => f(f))(g => fn(n => g(g)(n)))
+// as we saw  Y =  f => (x => x(x))(x =>  f(y => x(x)(y)))
+```
+
+Aha!
