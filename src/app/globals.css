@@ -2,9 +2,9 @@
 @font-face {
   font-family: suisse-intl;
   src: url(https://resources.shahabkhalvati.com/shared/fonts/SuisseIntl-Light-WebS.woff2)
-      format("woff2"),
+      format('woff2'),
     url(https://resources.shahabkhalvati.com/shared/fonts/SuisseIntl-Light-WebS.woff)
-      format("woff");
+      format('woff');
   font-weight: 200;
   font-style: normal;
   font-display: fallback;
@@ -13,9 +13,9 @@
 @font-face {
   font-family: suisse-intl;
   src: url(https://resources.shahabkhalvati.com/shared/fonts/SuisseIntl-Book-WebM.woff2)
-      format("woff2"),
+      format('woff2'),
     url(https://resources.shahabkhalvati.com/shared/fonts/SuisseIntl-Book-WebM.woff)
-      format("woff");
+      format('woff');
   font-weight: 400;
   font-style: normal;
   font-display: fallback;
@@ -24,9 +24,9 @@
 @font-face {
   font-family: suisse-intl;
   src: url(https://resources.shahabkhalvati.com/shared/fonts/SuisseIntl-Bold-WebM.woff2)
-      format("woff2"),
+      format('woff2'),
     url(https://resources.shahabkhalvati.com/shared/fonts/SuisseIntl-Bold-WebM.woff)
-      format("woff");
+      format('woff');
   font-weight: 800;
   font-style: normal;
   font-display: fallback;
@@ -35,9 +35,9 @@
 @font-face {
   font-family: suisse-intl;
   src: url(https://resources.shahabkhalvati.com/shared/fonts/SuisseIntl-BookItalic-WebM.woff2)
-      format("woff2"),
+      format('woff2'),
     url(https://resources.shahabkhalvati.com/shared/fonts/SuisseIntl-BookItalic-WebM.woff)
-      format("woff");
+      format('woff');
   font-weight: 400;
   font-style: italic;
   font-display: fallback;
@@ -46,9 +46,9 @@
 @font-face {
   font-family: suisse-intl;
   src: url(https://resources.shahabkhalvati.com/shared/fonts/SuisseIntl-BoldItalic-WebM.woff2)
-      format("woff2"),
+      format('woff2'),
     url(https://resources.shahabkhalvati.com/shared/fonts/SuisseIntl-BoldItalic-WebM.woff)
-      format("woff");
+      format('woff');
   font-weight: 800;
   font-style: italic;
   font-display: fallback;
@@ -58,9 +58,9 @@
 @font-face {
   font-family: suisse-works;
   src: url(https://resources.shahabkhalvati.com/shared/fonts/SuisseWorks-Book-WebS.woff2)
-      format("woff2"),
+      format('woff2'),
     url(https://resources.shahabkhalvati.com/shared/fonts/SuisseWorks-Book-WebS.woff)
-      format("woff");
+      format('woff');
   font-weight: 400;
   font-style: normal;
   font-display: fallback;
@@ -69,9 +69,9 @@
 @font-face {
   font-family: suisse-works;
   src: url(https://resources.shahabkhalvati.com/shared/fonts/SuisseWorks-Bold-WebS.woff2)
-      format("woff2"),
+      format('woff2'),
     url(https://resources.shahabkhalvati.com/shared/fonts/SuisseWorks-Bold-WebS.woff)
-      format("woff");
+      format('woff');
   font-weight: 800;
   font-style: normal;
   font-display: fallback;
@@ -80,9 +80,9 @@
 @font-face {
   font-family: suisse-works;
   src: url(https://resources.shahabkhalvati.com/shared/fonts/SuisseWorks-BookItalic-WebS.woff2)
-      format("woff2"),
+      format('woff2'),
     url(https://resources.shahabkhalvati.com/shared/fonts/SuisseWorks-Book-WebS.woff)
-      format("woff");
+      format('woff');
   font-weight: 400;
   font-style: italic;
   font-display: fallback;
@@ -91,9 +91,9 @@
 @font-face {
   font-family: suisse-works;
   src: url(https://resources.shahabkhalvati.com/shared/fonts/SuisseWorks-BoldItalic-WebS.woff2)
-      format("woff2"),
+      format('woff2'),
     url(https://resources.shahabkhalvati.com/shared/fonts/SuisseWorks-BoldItalic-WebS.woff)
-      format("woff");
+      format('woff');
   font-weight: 800;
   font-style: italic;
   font-display: fallback;
@@ -103,9 +103,9 @@
 @font-face {
   font-family: suisse-screen;
   src: url(https://resources.shahabkhalvati.com/shared/fonts/SuisseScreen-Regular-WebM.woff2)
-      format("woff2"),
+      format('woff2'),
     url(https://resources.shahabkhalvati.com/shared/fonts/SuisseScreen-Regular-WebM.woff)
-      format("woff");
+      format('woff');
   font-weight: 400;
   font-style: normal;
   font-display: fallback;
@@ -114,9 +114,9 @@
 @font-face {
   font-family: suisse-screen;
   src: url(https://resources.shahabkhalvati.com/shared/fonts/SuisseScreen-Bold-WebM.woff2)
-      format("woff2"),
+      format('woff2'),
     url(https://resources.shahabkhalvati.com/shared/fonts/SuisseScreen-Bold-WebM.woff)
-      format("woff");
+      format('woff');
   font-weight: 800;
   font-style: normal;
   font-display: fallback;
@@ -125,9 +125,9 @@
 @font-face {
   font-family: suisse-screen;
   src: url(https://resources.shahabkhalvati.com/shared/fonts/SuisseScreen-RegularItalic-WebM.woff2)
-      format("woff2"),
+      format('woff2'),
     url(https://resources.shahabkhalvati.com/shared/fonts/SuisseScreen-RegularItalic-WebM.woff)
-      format("woff");
+      format('woff');
   font-weight: 400;
   font-style: italic;
   font-display: fallback;
@@ -136,9 +136,9 @@
 @font-face {
   font-family: suisse-screen;
   src: url(https://resources.shahabkhalvati.com/shared/fonts/SuisseScreen-BoldItalic-WebM.woff2)
-      format("woff2"),
+      format('woff2'),
     url(https://resources.shahabkhalvati.com/shared/fonts/SuisseScreen-BoldItalic-WebM.woff)
-      format("woff");
+      format('woff');
   font-weight: 800;
   font-style: italic;
   font-display: fallback;
@@ -148,9 +148,9 @@
 @font-face {
   font-family: suisse-intl-mono;
   src: url(https://resources.shahabkhalvati.com/shared/fonts/SuisseIntlMono-Regular-WebS.woff2)
-      format("woff2"),
+      format('woff2'),
     url(https://resources.shahabkhalvati.com/shared/fonts/SuisseIntlMono-Regular-WebS.woff)
-      format("woff");
+      format('woff');
   font-weight: 400;
   font-style: italic;
   font-display: fallback;
@@ -159,9 +159,9 @@
 @font-face {
   font-family: suisse-intl-mono;
   src: url(https://resources.shahabkhalvati.com/shared/fonts/SuisseIntlMono-Regular-WebS.woff2)
-      format("woff2"),
+      format('woff2'),
     url(https://resources.shahabkhalvati.com/shared/fonts/SuisseIntlMono-Regular-WebS.woff)
-      format("woff");
+      format('woff');
   font-weight: 800;
   font-style: italic;
   font-display: fallback;
@@ -169,31 +169,33 @@
 
 /** input-mono */
 @font-face {
-  font-family: "input-mono";
-  src: url("https://resources.shahabkhalvati.com/shared/fonts/Input-Mono-Light-Web.woff2")
-      format("woff2"),
-    url("https://resources.shahabkhalvati.com/shared/fonts/Input-Mono-Light-Web.woff")
-      format("woff");
+  font-family: 'input-mono';
+  src: url('https://resources.shahabkhalvati.com/shared/fonts/Input-Mono-Light-Web.woff2')
+      format('woff2'),
+    url('https://resources.shahabkhalvati.com/shared/fonts/Input-Mono-Light-Web.woff')
+      format('woff');
 
   font-weight: 300;
   font-style: normal;
 }
+
 @font-face {
-  font-family: "input-mono";
-  src: url("https://resources.shahabkhalvati.com/shared/fonts/Input-Mono-Regular-Web.woff2")
-      format("woff2"),
-    url("https://resources.shahabkhalvati.com/shared/fonts/Input-Mono-Regular-Web.woff")
-      format("woff");
+  font-family: 'input-mono';
+  src: url('https://resources.shahabkhalvati.com/shared/fonts/Input-Mono-Regular-Web.woff2')
+      format('woff2'),
+    url('https://resources.shahabkhalvati.com/shared/fonts/Input-Mono-Regular-Web.woff')
+      format('woff');
 
   font-weight: 400;
   font-style: normal;
 }
+
 @font-face {
-  font-family: "input-mono";
-  src: url("https://resources.shahabkhalvati.com/shared/fonts/Input-Mono-Medium-Web.woff2")
-      format("woff2"),
-    url("https://resources.shahabkhalvati.com/shared/fonts/Input-Mono-Medium-Web.woff")
-      format("woff");
+  font-family: 'input-mono';
+  src: url('https://resources.shahabkhalvati.com/shared/fonts/Input-Mono-Medium-Web.woff2')
+      format('woff2'),
+    url('https://resources.shahabkhalvati.com/shared/fonts/Input-Mono-Medium-Web.woff')
+      format('woff');
 
   font-weight: 600;
   font-style: normal;
@@ -201,31 +203,33 @@
 
 /** input-sans */
 @font-face {
-  font-family: "input-sans";
-  src: url("https://resources.shahabkhalvati.com/shared/fonts/Input-Sans-Light-Web.woff2")
-      format("woff2"),
-    url("https://resources.shahabkhalvati.com/shared/fonts/Input-Sans-Light-Web.woff")
-      format("woff");
+  font-family: 'input-sans';
+  src: url('https://resources.shahabkhalvati.com/shared/fonts/Input-Sans-Light-Web.woff2')
+      format('woff2'),
+    url('https://resources.shahabkhalvati.com/shared/fonts/Input-Sans-Light-Web.woff')
+      format('woff');
 
   font-weight: 200;
   font-style: normal;
 }
+
 @font-face {
-  font-family: "input-sans";
-  src: url("https://resources.shahabkhalvati.com/shared/fonts/Input-Sans-Regular-Web.woff2")
-      format("woff2"),
-    url("https://resources.shahabkhalvati.com/shared/fonts/Input-Sans-Regular-Web.woff")
-      format("woff");
+  font-family: 'input-sans';
+  src: url('https://resources.shahabkhalvati.com/shared/fonts/Input-Sans-Regular-Web.woff2')
+      format('woff2'),
+    url('https://resources.shahabkhalvati.com/shared/fonts/Input-Sans-Regular-Web.woff')
+      format('woff');
 
   font-weight: 400;
   font-style: normal;
 }
+
 @font-face {
-  font-family: "input-sans";
-  src: url("https://resources.shahabkhalvati.com/shared/fonts/Input-Sans-Bold-Web.woff2")
-      format("woff2"),
-    url("https://resources.shahabkhalvati.com/shared/fonts/Input-Sans-Bold-Web.woff")
-      format("woff");
+  font-family: 'input-sans';
+  src: url('https://resources.shahabkhalvati.com/shared/fonts/Input-Sans-Bold-Web.woff2')
+      format('woff2'),
+    url('https://resources.shahabkhalvati.com/shared/fonts/Input-Sans-Bold-Web.woff')
+      format('woff');
 
   font-weight: 600;
   font-style: normal;
@@ -233,21 +237,22 @@
 
 /** soehne */
 @font-face {
-  font-family: "soehne";
-  src: url("https://resources.shahabkhalvati.com/shared/fonts/soehne-buch.woff2")
-      format("woff2"),
-    url("https://resources.shahabkhalvati.com/shared/fonts/soehne-buch.woff")
-      format("woff");
+  font-family: 'soehne';
+  src: url('https://resources.shahabkhalvati.com/shared/fonts/soehne-buch.woff2')
+      format('woff2'),
+    url('https://resources.shahabkhalvati.com/shared/fonts/soehne-buch.woff')
+      format('woff');
 
   font-weight: 400;
   font-style: normal;
 }
+
 @font-face {
-  font-family: "soehne";
-  src: url("https://resources.shahabkhalvati.com/shared/fonts/soehne-halbfett.woff2")
-      format("woff2"),
-    url("https://resources.shahabkhalvati.com/shared/fonts/soehne-halbfett.woff")
-      format("woff");
+  font-family: 'soehne';
+  src: url('https://resources.shahabkhalvati.com/shared/fonts/soehne-halbfett.woff2')
+      format('woff2'),
+    url('https://resources.shahabkhalvati.com/shared/fonts/soehne-halbfett.woff')
+      format('woff');
 
   font-weight: 600;
   font-style: normal;
@@ -264,27 +269,27 @@
   --max-width: calc(30em + var(--spacing-2) * 2);
 
   --font-backup-ui: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
-    "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
-    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif,
+    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 
   --font-backup-sans: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
     Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 
-  --font-backup-serif: "Iowan Old Style", Baskerville, serif;
+  --font-backup-serif: 'Iowan Old Style', Baskerville, serif;
 
   --font-body-size: 15px;
   --font-body-line-height: 1.22em;
   --font-body-letter-spacing: 0.01em;
 
-  --font-ui: "input-sans", var(--font-backup-ui);
+  --font-ui: 'input-sans', var(--font-backup-ui);
   --font-ui-smoothing-moz: grayscale;
   --font-ui-smoothing-webkit: antialiased;
 
-  --font-body: "soehne", var(--font-backup-sans);
+  --font-body: 'soehne', var(--font-backup-sans);
   --font-body-smoothing-moz: grayscale;
   --font-body-smoothing-webkit: antialiased;
 
-  --font-title: "input-sans", var(--font-backup-serif);
+  --font-title: 'input-sans', var(--font-backup-serif);
   --font-title-smoothing-moz: grayscale;
   --font-title-smoothing-webkit: antialiased;
 
@@ -298,20 +303,23 @@
   --font-mono-line-height: 1.4em;
   --font-mono-letter-spacing: 0em;
 
-  --font-mono: "input-mono", monospace;
+  --font-mono: 'input-mono', monospace;
   --font-mono-smoothing-moz: auto;
   --font-mono-smoothing-webkit: auto;
 
-  --font-code: "input-mono", monospace;
+  --font-code: 'input-mono', monospace;
   --font-code-smoothing-moz: auto;
   --font-code-smoothing-webkit: auto;
+  --font-code-size: calc(var(--font-body-size) * 0.8);
 
   --forecolor: #353535;
-  --background-color: #F7F3E8;
+  --background-color: #f7f3e8;
   --ui-link-color: #111111;
-  --link-color: #2A7AE2;
+  --link-color: #2a7ae2;
   --link-color-hover: #111111;
-  --ui-color: #E8E8E8;
+  --ui-color: #e8e8e8;
+  --code-background-color: #f4efe1;
+  --code-border-color: #eee7d2;
 }
 
 @media screen and (min-width: 800px) {
@@ -327,18 +335,25 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --forecolor: #F7F3E8;
-    --background-color: #0F1A20;
-    --ui-link-color: #4EA5D9;
-    --link-color: #4EA5D9;
-    --link-color-hover: #4EA5D9;
-    --ui-color: #2F3E46;
+    --forecolor: #f7f3e8;
+    --background-color: #0f1a20;
+    --ui-link-color: #4ea5d9;
+    --link-color: #4ea5d9;
+    --link-color-hover: #4ea5d9;
+    --ui-color: #2f3e46;
+
+    --code-background-color: #12212b;
+    --code-border-color: #0d171c;
   }
 }
 
-@media screen and  (prefers-color-scheme: dark) and (max-width: 600px) {
+@media screen and (prefers-color-scheme: dark) and (max-width: 600px) {
   :root {
     --background-color: #000;
+    --code-background-color: #0c161d;
+  }
+  .e-content > pre {
+    opacity: 0.85;
   }
 }
 
@@ -378,7 +393,7 @@ body {
   -webkit-font-smoothing: var(--font-body-smoothing-webkit);
 
   line-height: var(--font-body-line-height);
-  font-feature-settings: "calt", "clig", "kern", "liga", "ss02";
+  font-feature-settings: 'calt', 'clig', 'kern', 'liga', 'ss02';
 
   transition: background-color 0.5s ease-in-out, color 0.5s;
 }
@@ -453,6 +468,7 @@ h3,
 h4 {
   font-weight: 800;
 }
+
 h5,
 h6 {
   font-weight: 400;
@@ -463,9 +479,11 @@ a {
   color: var(--link-color);
   text-decoration: none;
 }
+
 a:visited {
   /*! color: #1756a9; */
 }
+
 a:hover {
   color: var(--link-color-hover);
   text-decoration: underline;
@@ -488,10 +506,10 @@ blockquote {
 /** Code formatting */
 pre,
 code {
-  font-size: 15px;
-  border: 1px solid #e8e8e8;
+  font-size: var(--font-code-size);
+  border: 1px solid var(--code-border-color);
   border-radius: 3px;
-  background-color: #eef;
+  background-color: var(--code-background-color);
 }
 
 code {
@@ -502,10 +520,30 @@ pre {
   padding: 8px 12px;
   overflow-x: scroll;
 }
+
+br + code {
+  margin-left: -1ex;
+  margin-top: 0.5ex;
+  margin-bottom: 0.5ex;
+  display: inline-block;
+}
+
 pre > code {
+  display: block;
+  text-align: left;
   border: 0;
   padding-right: 0;
   padding-left: 0;
+  font-family: var(--font-code);
+  -moz-osx-font-smoothing: var(--font-code-smoothing-moz);
+  -webkit-font-smoothing: var(--font-code-smoothing-webkit);
+  font-size: var(--font-code-size);
+  tab-size: 2;
+}
+
+.e-content > pre {
+  margin-top: var(--spacing);
+  margin-bottom: var(--spacing-2);
 }
 
 /** Wrapper */
@@ -516,6 +554,7 @@ pre > code {
   padding-left: var(--spacing-2);
   max-width: var(--max-width);
 }
+
 @media screen and (max-width: 800px) {
   .wrapper {
     padding-right: var(--spacing);
@@ -531,6 +570,7 @@ pre > code {
   height: 16px;
   vertical-align: middle;
 }
+
 .icon > svg path {
   fill: #828282;
 }
@@ -542,6 +582,7 @@ pre > code {
   margin-top: calc(2 * var(--spacing-2));
   margin-bottom: var(--spacing-2);
 }
+
 @media screen and (max-width: 800px) {
   .site-header {
     margin-top: var(--spacing);
@@ -560,6 +601,7 @@ pre > code {
   -moz-osx-font-smoothing: var(--font-ui-smoothing-moz);
   -webkit-font-smoothing: var(--font-ui-smoothing-webkit);
 }
+
 .site-title,
 .site-title:visited {
   /*! color: #424242; */
@@ -586,7 +628,6 @@ pre > code {
   align-items: end;
 }
 
-
 /** Site footer */
 .site-footer {
   margin-top: var(--spacing);
@@ -611,6 +652,7 @@ pre > code {
   flex-wrap: wrap;
   line-height: 1.1em;
 }
+
 .footer-row > p.text {
   font-family: var(--font-ui);
   font-size: 0.7em;
@@ -621,11 +663,12 @@ pre > code {
 }
 
 .footer-row > p.text::before {
-  content: "/";
+  content: '/';
   padding: 0 1ex;
 }
+
 .footer-row > p.text:first-of-type::before {
-  content: "";
+  content: '';
 }
 
 /* @media screen and (max-width: 600px) {
@@ -649,10 +692,12 @@ pre > code {
   margin-left: 0;
   list-style: none;
 }
+
 .post-list > li {
   margin-bottom: var(--spacing-2);
   padding-bottom: var(--spacing-2);
 }
+
 .post-list > li.h-entry.photos {
   margin-bottom: var(--spacing-2);
   padding-bottom: var(--spacing-2);
@@ -707,12 +752,20 @@ article > h4 {
 }
 
 h1 {
-  --adoptive-font-size: clamp(26px, calc(24px + 17 * ((100vw - 320px) / 700)), 36px);
+  --adoptive-font-size: clamp(
+    26px,
+    calc(24px + 17 * ((100vw - 320px) / 700)),
+    36px
+  );
   font-size: var(--adoptive-font-size);
 }
 
 h2 {
-  --adoptive-font-size: clamp(26px, calc(24px + 17 * ((100vw - 320px) / 700)), 36px);
+  --adoptive-font-size: clamp(
+    26px,
+    calc(24px + 17 * ((100vw - 320px) / 700)),
+    36px
+  );
   font-size: calc(var(--adoptive-font-size) * 0.65);
 }
 
@@ -721,7 +774,11 @@ p + h2 {
 }
 
 h3 {
-  --adoptive-font-size: clamp(26px, calc(24px + 17 * ((100vw - 320px) / 700)), 36px);
+  --adoptive-font-size: clamp(
+    26px,
+    calc(24px + 17 * ((100vw - 320px) / 700)),
+    36px
+  );
   font-size: calc(var(--adoptive-font-size) * 0.5);
 }
 
@@ -751,7 +808,7 @@ h4 {
 
 .wip > span.post-meta::after,
 .wip > .post-header > .post-meta::after {
-  content: " / In Progress";
+  content: ' / In Progress';
 }
 
 #post-nav {
@@ -772,11 +829,24 @@ video {
   margin-left: calc(var(--spacing-neg) * 2);
 }
 
+.e-content > pre > code {
+  font-size: max(12px, calc(var(--font-code-size) * 0.9));
+}
+.e-content > pre {
+  margin-left: -1em;
+  margin-right: -1em;
+}
+
 @media screen and (max-width: 800px) {
   .e-content iframe,
-  .e-content img {
+  .e-content img,
+  .e-content > pre {
     margin-left: var(--spacing-neg);
     margin-right: var(--spacing-neg);
+  }
+
+  .e-content > pre > code {
+    font-size: var(--font-code-size);
   }
 }
 
@@ -823,6 +893,7 @@ video {
   -moz-osx-font-smoothing: var(--font-body-smoothing-moz);
   -webkit-font-smoothing: var(--font-body-smoothing-webkit);
 }
+
 .post.wip .e-content {
   text-align: center;
   font-family: var(--font-mono);
@@ -832,6 +903,7 @@ video {
   -moz-osx-font-smoothing: var(--font-mono-smoothing-moz);
   -webkit-font-smoothing: var(--font-mono-smoothing-webkit);
 }
+
 .e-content p,
 .e-content ul,
 .e-content h1,
@@ -844,7 +916,7 @@ video {
 }
 
 .e-content ul {
-  list-style: "– ";
+  list-style: '– ';
 }
 
 .e-content > ul {
