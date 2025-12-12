@@ -1,360 +1,336 @@
 /** suisse-intl */
 @font-face {
-  font-family: suisse-intl;
-  src: url(https://resources.shahabkhalvati.com/shared/fonts/SuisseIntl-Light-WebS.woff2)
-      format('woff2'),
-    url(https://resources.shahabkhalvati.com/shared/fonts/SuisseIntl-Light-WebS.woff)
-      format('woff');
-  font-weight: 200;
-  font-style: normal;
-  font-display: fallback;
+	font-family: suisse-intl;
+	src:
+		url(https://resources.shahabkhalvati.com/shared/fonts/SuisseIntl-Light-WebS.woff2) format("woff2"),
+		url(https://resources.shahabkhalvati.com/shared/fonts/SuisseIntl-Light-WebS.woff) format("woff");
+	font-weight: 200;
+	font-style: normal;
+	font-display: fallback;
 }
 
 @font-face {
-  font-family: suisse-intl;
-  src: url(https://resources.shahabkhalvati.com/shared/fonts/SuisseIntl-Book-WebM.woff2)
-      format('woff2'),
-    url(https://resources.shahabkhalvati.com/shared/fonts/SuisseIntl-Book-WebM.woff)
-      format('woff');
-  font-weight: 400;
-  font-style: normal;
-  font-display: fallback;
+	font-family: suisse-intl;
+	src:
+		url(https://resources.shahabkhalvati.com/shared/fonts/SuisseIntl-Book-WebM.woff2) format("woff2"),
+		url(https://resources.shahabkhalvati.com/shared/fonts/SuisseIntl-Book-WebM.woff) format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: fallback;
 }
 
 @font-face {
-  font-family: suisse-intl;
-  src: url(https://resources.shahabkhalvati.com/shared/fonts/SuisseIntl-Bold-WebM.woff2)
-      format('woff2'),
-    url(https://resources.shahabkhalvati.com/shared/fonts/SuisseIntl-Bold-WebM.woff)
-      format('woff');
-  font-weight: 800;
-  font-style: normal;
-  font-display: fallback;
+	font-family: suisse-intl;
+	src:
+		url(https://resources.shahabkhalvati.com/shared/fonts/SuisseIntl-Bold-WebM.woff2) format("woff2"),
+		url(https://resources.shahabkhalvati.com/shared/fonts/SuisseIntl-Bold-WebM.woff) format("woff");
+	font-weight: 800;
+	font-style: normal;
+	font-display: fallback;
 }
 
 @font-face {
-  font-family: suisse-intl;
-  src: url(https://resources.shahabkhalvati.com/shared/fonts/SuisseIntl-BookItalic-WebM.woff2)
-      format('woff2'),
-    url(https://resources.shahabkhalvati.com/shared/fonts/SuisseIntl-BookItalic-WebM.woff)
-      format('woff');
-  font-weight: 400;
-  font-style: italic;
-  font-display: fallback;
+	font-family: suisse-intl;
+	src:
+		url(https://resources.shahabkhalvati.com/shared/fonts/SuisseIntl-BookItalic-WebM.woff2) format("woff2"),
+		url(https://resources.shahabkhalvati.com/shared/fonts/SuisseIntl-BookItalic-WebM.woff) format("woff");
+	font-weight: 400;
+	font-style: italic;
+	font-display: fallback;
 }
 
 @font-face {
-  font-family: suisse-intl;
-  src: url(https://resources.shahabkhalvati.com/shared/fonts/SuisseIntl-BoldItalic-WebM.woff2)
-      format('woff2'),
-    url(https://resources.shahabkhalvati.com/shared/fonts/SuisseIntl-BoldItalic-WebM.woff)
-      format('woff');
-  font-weight: 800;
-  font-style: italic;
-  font-display: fallback;
+	font-family: suisse-intl;
+	src:
+		url(https://resources.shahabkhalvati.com/shared/fonts/SuisseIntl-BoldItalic-WebM.woff2) format("woff2"),
+		url(https://resources.shahabkhalvati.com/shared/fonts/SuisseIntl-BoldItalic-WebM.woff) format("woff");
+	font-weight: 800;
+	font-style: italic;
+	font-display: fallback;
 }
 
 /** suisse-works */
 @font-face {
-  font-family: suisse-works;
-  src: url(https://resources.shahabkhalvati.com/shared/fonts/SuisseWorks-Book-WebS.woff2)
-      format('woff2'),
-    url(https://resources.shahabkhalvati.com/shared/fonts/SuisseWorks-Book-WebS.woff)
-      format('woff');
-  font-weight: 400;
-  font-style: normal;
-  font-display: fallback;
+	font-family: suisse-works;
+	src:
+		url(https://resources.shahabkhalvati.com/shared/fonts/SuisseWorks-Book-WebS.woff2) format("woff2"),
+		url(https://resources.shahabkhalvati.com/shared/fonts/SuisseWorks-Book-WebS.woff) format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: fallback;
 }
 
 @font-face {
-  font-family: suisse-works;
-  src: url(https://resources.shahabkhalvati.com/shared/fonts/SuisseWorks-Bold-WebS.woff2)
-      format('woff2'),
-    url(https://resources.shahabkhalvati.com/shared/fonts/SuisseWorks-Bold-WebS.woff)
-      format('woff');
-  font-weight: 800;
-  font-style: normal;
-  font-display: fallback;
+	font-family: suisse-works;
+	src:
+		url(https://resources.shahabkhalvati.com/shared/fonts/SuisseWorks-Bold-WebS.woff2) format("woff2"),
+		url(https://resources.shahabkhalvati.com/shared/fonts/SuisseWorks-Bold-WebS.woff) format("woff");
+	font-weight: 800;
+	font-style: normal;
+	font-display: fallback;
 }
 
 @font-face {
-  font-family: suisse-works;
-  src: url(https://resources.shahabkhalvati.com/shared/fonts/SuisseWorks-BookItalic-WebS.woff2)
-      format('woff2'),
-    url(https://resources.shahabkhalvati.com/shared/fonts/SuisseWorks-Book-WebS.woff)
-      format('woff');
-  font-weight: 400;
-  font-style: italic;
-  font-display: fallback;
+	font-family: suisse-works;
+	src:
+		url(https://resources.shahabkhalvati.com/shared/fonts/SuisseWorks-BookItalic-WebS.woff2) format("woff2"),
+		url(https://resources.shahabkhalvati.com/shared/fonts/SuisseWorks-Book-WebS.woff) format("woff");
+	font-weight: 400;
+	font-style: italic;
+	font-display: fallback;
 }
 
 @font-face {
-  font-family: suisse-works;
-  src: url(https://resources.shahabkhalvati.com/shared/fonts/SuisseWorks-BoldItalic-WebS.woff2)
-      format('woff2'),
-    url(https://resources.shahabkhalvati.com/shared/fonts/SuisseWorks-BoldItalic-WebS.woff)
-      format('woff');
-  font-weight: 800;
-  font-style: italic;
-  font-display: fallback;
+	font-family: suisse-works;
+	src:
+		url(https://resources.shahabkhalvati.com/shared/fonts/SuisseWorks-BoldItalic-WebS.woff2) format("woff2"),
+		url(https://resources.shahabkhalvati.com/shared/fonts/SuisseWorks-BoldItalic-WebS.woff) format("woff");
+	font-weight: 800;
+	font-style: italic;
+	font-display: fallback;
 }
 
 /** suisse-screen */
 @font-face {
-  font-family: suisse-screen;
-  src: url(https://resources.shahabkhalvati.com/shared/fonts/SuisseScreen-Regular-WebM.woff2)
-      format('woff2'),
-    url(https://resources.shahabkhalvati.com/shared/fonts/SuisseScreen-Regular-WebM.woff)
-      format('woff');
-  font-weight: 400;
-  font-style: normal;
-  font-display: fallback;
+	font-family: suisse-screen;
+	src:
+		url(https://resources.shahabkhalvati.com/shared/fonts/SuisseScreen-Regular-WebM.woff2) format("woff2"),
+		url(https://resources.shahabkhalvati.com/shared/fonts/SuisseScreen-Regular-WebM.woff) format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: fallback;
 }
 
 @font-face {
-  font-family: suisse-screen;
-  src: url(https://resources.shahabkhalvati.com/shared/fonts/SuisseScreen-Bold-WebM.woff2)
-      format('woff2'),
-    url(https://resources.shahabkhalvati.com/shared/fonts/SuisseScreen-Bold-WebM.woff)
-      format('woff');
-  font-weight: 800;
-  font-style: normal;
-  font-display: fallback;
+	font-family: suisse-screen;
+	src:
+		url(https://resources.shahabkhalvati.com/shared/fonts/SuisseScreen-Bold-WebM.woff2) format("woff2"),
+		url(https://resources.shahabkhalvati.com/shared/fonts/SuisseScreen-Bold-WebM.woff) format("woff");
+	font-weight: 800;
+	font-style: normal;
+	font-display: fallback;
 }
 
 @font-face {
-  font-family: suisse-screen;
-  src: url(https://resources.shahabkhalvati.com/shared/fonts/SuisseScreen-RegularItalic-WebM.woff2)
-      format('woff2'),
-    url(https://resources.shahabkhalvati.com/shared/fonts/SuisseScreen-RegularItalic-WebM.woff)
-      format('woff');
-  font-weight: 400;
-  font-style: italic;
-  font-display: fallback;
+	font-family: suisse-screen;
+	src:
+		url(https://resources.shahabkhalvati.com/shared/fonts/SuisseScreen-RegularItalic-WebM.woff2)
+		format("woff2"),
+		url(https://resources.shahabkhalvati.com/shared/fonts/SuisseScreen-RegularItalic-WebM.woff) format("woff");
+	font-weight: 400;
+	font-style: italic;
+	font-display: fallback;
 }
 
 @font-face {
-  font-family: suisse-screen;
-  src: url(https://resources.shahabkhalvati.com/shared/fonts/SuisseScreen-BoldItalic-WebM.woff2)
-      format('woff2'),
-    url(https://resources.shahabkhalvati.com/shared/fonts/SuisseScreen-BoldItalic-WebM.woff)
-      format('woff');
-  font-weight: 800;
-  font-style: italic;
-  font-display: fallback;
+	font-family: suisse-screen;
+	src:
+		url(https://resources.shahabkhalvati.com/shared/fonts/SuisseScreen-BoldItalic-WebM.woff2) format("woff2"),
+		url(https://resources.shahabkhalvati.com/shared/fonts/SuisseScreen-BoldItalic-WebM.woff) format("woff");
+	font-weight: 800;
+	font-style: italic;
+	font-display: fallback;
 }
 
 /** suisse-intl-mono */
 @font-face {
-  font-family: suisse-intl-mono;
-  src: url(https://resources.shahabkhalvati.com/shared/fonts/SuisseIntlMono-Regular-WebS.woff2)
-      format('woff2'),
-    url(https://resources.shahabkhalvati.com/shared/fonts/SuisseIntlMono-Regular-WebS.woff)
-      format('woff');
-  font-weight: 400;
-  font-style: italic;
-  font-display: fallback;
+	font-family: suisse-intl-mono;
+	src:
+		url(https://resources.shahabkhalvati.com/shared/fonts/SuisseIntlMono-Regular-WebS.woff2) format("woff2"),
+		url(https://resources.shahabkhalvati.com/shared/fonts/SuisseIntlMono-Regular-WebS.woff) format("woff");
+	font-weight: 400;
+	font-style: italic;
+	font-display: fallback;
 }
 
 @font-face {
-  font-family: suisse-intl-mono;
-  src: url(https://resources.shahabkhalvati.com/shared/fonts/SuisseIntlMono-Regular-WebS.woff2)
-      format('woff2'),
-    url(https://resources.shahabkhalvati.com/shared/fonts/SuisseIntlMono-Regular-WebS.woff)
-      format('woff');
-  font-weight: 800;
-  font-style: italic;
-  font-display: fallback;
+	font-family: suisse-intl-mono;
+	src:
+		url(https://resources.shahabkhalvati.com/shared/fonts/SuisseIntlMono-Regular-WebS.woff2) format("woff2"),
+		url(https://resources.shahabkhalvati.com/shared/fonts/SuisseIntlMono-Regular-WebS.woff) format("woff");
+	font-weight: 800;
+	font-style: italic;
+	font-display: fallback;
 }
 
 /** input-mono */
 @font-face {
-  font-family: 'input-mono';
-  src: url('https://resources.shahabkhalvati.com/shared/fonts/Input-Mono-Light-Web.woff2')
-      format('woff2'),
-    url('https://resources.shahabkhalvati.com/shared/fonts/Input-Mono-Light-Web.woff')
-      format('woff');
+	font-family: "input-mono";
+	src:
+		url("https://resources.shahabkhalvati.com/shared/fonts/Input-Mono-Light-Web.woff2") format("woff2"),
+		url("https://resources.shahabkhalvati.com/shared/fonts/Input-Mono-Light-Web.woff") format("woff");
 
-  font-weight: 300;
-  font-style: normal;
+	font-weight: 300;
+	font-style: normal;
 }
 
 @font-face {
-  font-family: 'input-mono';
-  src: url('https://resources.shahabkhalvati.com/shared/fonts/Input-Mono-Regular-Web.woff2')
-      format('woff2'),
-    url('https://resources.shahabkhalvati.com/shared/fonts/Input-Mono-Regular-Web.woff')
-      format('woff');
+	font-family: "input-mono";
+	src:
+		url("https://resources.shahabkhalvati.com/shared/fonts/Input-Mono-Regular-Web.woff2") format("woff2"),
+		url("https://resources.shahabkhalvati.com/shared/fonts/Input-Mono-Regular-Web.woff") format("woff");
 
-  font-weight: 400;
-  font-style: normal;
+	font-weight: 400;
+	font-style: normal;
 }
 
 @font-face {
-  font-family: 'input-mono';
-  src: url('https://resources.shahabkhalvati.com/shared/fonts/Input-Mono-Medium-Web.woff2')
-      format('woff2'),
-    url('https://resources.shahabkhalvati.com/shared/fonts/Input-Mono-Medium-Web.woff')
-      format('woff');
+	font-family: "input-mono";
+	src:
+		url("https://resources.shahabkhalvati.com/shared/fonts/Input-Mono-Medium-Web.woff2") format("woff2"),
+		url("https://resources.shahabkhalvati.com/shared/fonts/Input-Mono-Medium-Web.woff") format("woff");
 
-  font-weight: 600;
-  font-style: normal;
+	font-weight: 600;
+	font-style: normal;
 }
 
 /** input-sans */
 @font-face {
-  font-family: 'input-sans';
-  src: url('https://resources.shahabkhalvati.com/shared/fonts/Input-Sans-Light-Web.woff2')
-      format('woff2'),
-    url('https://resources.shahabkhalvati.com/shared/fonts/Input-Sans-Light-Web.woff')
-      format('woff');
+	font-family: "input-sans";
+	src:
+		url("https://resources.shahabkhalvati.com/shared/fonts/Input-Sans-Light-Web.woff2") format("woff2"),
+		url("https://resources.shahabkhalvati.com/shared/fonts/Input-Sans-Light-Web.woff") format("woff");
 
-  font-weight: 200;
-  font-style: normal;
+	font-weight: 200;
+	font-style: normal;
 }
 
 @font-face {
-  font-family: 'input-sans';
-  src: url('https://resources.shahabkhalvati.com/shared/fonts/Input-Sans-Regular-Web.woff2')
-      format('woff2'),
-    url('https://resources.shahabkhalvati.com/shared/fonts/Input-Sans-Regular-Web.woff')
-      format('woff');
+	font-family: "input-sans";
+	src:
+		url("https://resources.shahabkhalvati.com/shared/fonts/Input-Sans-Regular-Web.woff2") format("woff2"),
+		url("https://resources.shahabkhalvati.com/shared/fonts/Input-Sans-Regular-Web.woff") format("woff");
 
-  font-weight: 400;
-  font-style: normal;
+	font-weight: 400;
+	font-style: normal;
 }
 
 @font-face {
-  font-family: 'input-sans';
-  src: url('https://resources.shahabkhalvati.com/shared/fonts/Input-Sans-Bold-Web.woff2')
-      format('woff2'),
-    url('https://resources.shahabkhalvati.com/shared/fonts/Input-Sans-Bold-Web.woff')
-      format('woff');
+	font-family: "input-sans";
+	src:
+		url("https://resources.shahabkhalvati.com/shared/fonts/Input-Sans-Bold-Web.woff2") format("woff2"),
+		url("https://resources.shahabkhalvati.com/shared/fonts/Input-Sans-Bold-Web.woff") format("woff");
 
-  font-weight: 600;
-  font-style: normal;
+	font-weight: 600;
+	font-style: normal;
 }
 
 /** soehne */
 @font-face {
-  font-family: 'soehne';
-  src: url('https://resources.shahabkhalvati.com/shared/fonts/soehne-buch.woff2')
-      format('woff2'),
-    url('https://resources.shahabkhalvati.com/shared/fonts/soehne-buch.woff')
-      format('woff');
+	font-family: "soehne";
+	src:
+		url("https://resources.shahabkhalvati.com/shared/fonts/soehne-buch.woff2") format("woff2"),
+		url("https://resources.shahabkhalvati.com/shared/fonts/soehne-buch.woff") format("woff");
 
-  font-weight: 400;
-  font-style: normal;
+	font-weight: 400;
+	font-style: normal;
 }
 
 @font-face {
-  font-family: 'soehne';
-  src: url('https://resources.shahabkhalvati.com/shared/fonts/soehne-halbfett.woff2')
-      format('woff2'),
-    url('https://resources.shahabkhalvati.com/shared/fonts/soehne-halbfett.woff')
-      format('woff');
+	font-family: "soehne";
+	src:
+		url("https://resources.shahabkhalvati.com/shared/fonts/soehne-halbfett.woff2") format("woff2"),
+		url("https://resources.shahabkhalvati.com/shared/fonts/soehne-halbfett.woff") format("woff");
 
-  font-weight: 600;
-  font-style: normal;
+	font-weight: 600;
+	font-style: normal;
 }
 
 /** variables */
 :root {
-  --spacing: 15px;
-  --spacing-half: calc(var(--spacing) / 2);
-  --spacing-2: calc(2 * var(--spacing));
-  --spacing-neg: calc(-1 * var(--spacing));
-  --spacing-2-neg: calc(-2 * var(--spacing));
+	--spacing: 15px;
+	--spacing-half: calc(var(--spacing) / 2);
+	--spacing-2: calc(2 * var(--spacing));
+	--spacing-neg: calc(-1 * var(--spacing));
+	--spacing-2-neg: calc(-2 * var(--spacing));
 
-  --max-width: calc(30em + var(--spacing-2) * 2);
+	--max-width: calc(30em + var(--spacing-2) * 2);
 
-  --font-backup-ui: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif,
-    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+	--font-backup-ui:
+		ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+		"Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+		"Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 
-  --font-backup-sans: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
-    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+	--font-backup-sans:
+		-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans,
+		Helvetica Neue, sans-serif;
 
-  --font-backup-serif: 'Iowan Old Style', Baskerville, serif;
+	--font-backup-serif: "Iowan Old Style", Baskerville, serif;
 
-  --font-body-size: 15px;
-  --font-body-line-height: 1.22em;
-  --font-body-letter-spacing: 0.01em;
+	--font-body-size: 18px;
+	--font-body-line-height: 1.2em;
+	--font-body-letter-spacing: 0.01em;
 
-  --font-ui: 'input-sans', var(--font-backup-ui);
-  --font-ui-smoothing-moz: grayscale;
-  --font-ui-smoothing-webkit: antialiased;
+	--font-ui: "input-sans", var(--font-backup-ui);
+	--font-ui-smoothing-moz: grayscale;
+	--font-ui-smoothing-webkit: antialiased;
 
-  --font-body: 'soehne', var(--font-backup-sans);
-  --font-body-smoothing-moz: grayscale;
-  --font-body-smoothing-webkit: antialiased;
+	--font-body: "soehne", var(--font-backup-sans);
+	--font-body-smoothing-moz: grayscale;
+	--font-body-smoothing-webkit: antialiased;
 
-  --font-title: 'input-sans', var(--font-backup-serif);
-  --font-title-smoothing-moz: grayscale;
-  --font-title-smoothing-webkit: antialiased;
+	--font-title: "input-sans", var(--font-backup-serif);
+	--font-title-smoothing-moz: grayscale;
+	--font-title-smoothing-webkit: antialiased;
 
-  /*
+	/*
   --font-mono: "test söhne mono", suisse-intl-mono, monospace;
   --font-mono-smoothing-moz: grayscale;
   --font-mono-smoothing-webkit: antialiased;
   */
 
-  --font-mono-size: calc(var(--font-body-size) * 0.85);
-  --font-mono-line-height: 1.4em;
-  --font-mono-letter-spacing: 0em;
+	--font-mono-size: calc(var(--font-body-size) * 0.85);
+	--font-mono-line-height: 1.4em;
+	--font-mono-letter-spacing: 0em;
 
-  --font-mono: 'input-mono', monospace;
-  --font-mono-smoothing-moz: auto;
-  --font-mono-smoothing-webkit: auto;
+	--font-mono: "input-mono", monospace;
+	--font-mono-smoothing-moz: auto;
+	--font-mono-smoothing-webkit: auto;
 
-  --font-code: 'input-mono', monospace;
-  --font-code-smoothing-moz: auto;
-  --font-code-smoothing-webkit: auto;
-  --font-code-size: calc(var(--font-body-size) * 0.8);
+	--font-code: "input-mono", monospace;
+	--font-code-smoothing-moz: auto;
+	--font-code-smoothing-webkit: auto;
+	--font-code-size: calc(var(--font-body-size) * 0.75);
 
-  --forecolor: #353535;
-  --background-color: #f7f3e8;
-  --ui-link-color: #111111;
-  --link-color: #2a7ae2;
-  --link-color-hover: #111111;
-  --ui-color: #e8e8e8;
-  --code-background-color: #f4efe1;
-  --code-border-color: #eee7d2;
+	--forecolor: #111;
+	--background-color: #f7f3e8;
+	--ui-link-color: #000;
+	--link-color: #2a7ae2;
+	--link-color-hover: #000;
+	--ui-color: #e8e8e8;
+	--code-background-color: #f4efe1;
+	--code-border-color: #eee7d2;
 }
 
 @media screen and (min-width: 800px) {
-  :root {
-    --font-body-size: clamp(
-      15px,
-      calc(15px + 8 * ((100vw - 810px) / 960)),
-      19px
-    );
-    --font-body-line-height: 1.33em;
-  }
+	:root {
+		--font-body-size: clamp(16px, calc(16px + 8 * ((100vw - 810px) / 960)), 20px);
+		--font-body-line-height: 1.33em;
+	}
 }
 
 @media (prefers-color-scheme: dark) {
-  :root {
-    --forecolor: #f7f3e8;
-    --background-color: #0f1a20;
-    --ui-link-color: #4ea5d9;
-    --link-color: #4ea5d9;
-    --link-color-hover: #4ea5d9;
-    --ui-color: #2f3e46;
+	:root {
+		--forecolor: #f7f3e8;
+		--background-color: #0f1a20;
+		--ui-link-color: #4ea5d9;
+		--link-color: #4ea5d9;
+		--link-color-hover: #4ea5d9;
+		--ui-color: #2f3e46;
 
-    --code-background-color: #12212b;
-    --code-border-color: #0d171c;
-  }
+		--code-background-color: #12212b;
+		--code-border-color: #0d171c;
+	}
 }
 
 @media screen and (prefers-color-scheme: dark) and (max-width: 600px) {
-  :root {
-    --background-color: #000;
-    --code-background-color: #0c161d;
-  }
-  .e-content > pre {
-    opacity: 0.85;
-  }
+	:root {
+		--background-color: #000;
+		--code-background-color: #0c161d;
+	}
+	.e-content > pre {
+		opacity: 0.85;
+	}
 }
 
 /** Reset some basic elements */
@@ -374,28 +350,30 @@ dd,
 ol,
 ul,
 figure {
-  margin: 0;
-  padding: 0;
+	margin: 0;
+	padding: 0;
 }
 
 /** Basic styling */
 body {
-  background-color: var(--background-color);
-  color: var(--forecolor);
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  -webkit-text-size-adjust: 100%;
+	background-color: var(--background-color);
+	color: var(--forecolor);
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	-webkit-text-size-adjust: 100%;
 
-  font-family: var(--font-body);
-  font-size: var(--font-body-size);
-  -moz-osx-font-smoothing: var(--font-body-smoothing-moz);
-  -webkit-font-smoothing: var(--font-body-smoothing-webkit);
+	font-family: var(--font-body);
+	font-size: var(--font-body-size);
+	-moz-osx-font-smoothing: var(--font-body-smoothing-moz);
+	-webkit-font-smoothing: var(--font-body-smoothing-webkit);
 
-  line-height: var(--font-body-line-height);
-  font-feature-settings: 'calt', 'clig', 'kern', 'liga', 'ss02';
+	line-height: var(--font-body-line-height);
+	font-feature-settings: "calt", "clig", "kern", "liga", "ss02";
 
-  transition: background-color 0.5s ease-in-out, color 0.5s;
+	transition:
+		background-color 0.5s ease-in-out,
+		color 0.5s;
 }
 
 /** Set `margin-bottom` to maintain vertical rhythm */
@@ -412,53 +390,53 @@ ol,
 dl,
 figure,
 .highlight {
-  margin-bottom: var(--spacing);
+	margin-bottom: var(--spacing);
 }
 
 p + p,
 p + img,
 p + iframe {
-  margin-top: var(--spacing);
+	margin-top: var(--spacing);
 }
 
 p + .carousel {
-  margin-top: var(--spacing-2);
+	margin-top: var(--spacing-2);
 }
 
 .e-content li + li {
-  margin-top: var(--spacing-half);
+	margin-top: var(--spacing-half);
 }
 
 .e-content ul {
-  margin-top: var(--spacing);
-  margin-bottom: var(--spacing);
+	margin-top: var(--spacing);
+	margin-bottom: var(--spacing);
 }
 
 /** Images */
 img {
-  max-width: 100%;
-  height: auto;
-  vertical-align: middle;
+	max-width: 100%;
+	height: auto;
+	vertical-align: middle;
 }
 
 /** Figures */
 figure > img {
-  display: block;
+	display: block;
 }
 
 figcaption {
-  font-size: 17.5px;
+	font-size: 17.5px;
 }
 
 /** Lists */
 ul,
 ol {
-  margin-left: var(--spacing-2);
+	margin-left: var(--spacing-2);
 }
 
 li > ul,
 li > ol {
-  margin-bottom: 0;
+	margin-bottom: 0;
 }
 
 /** Headings */
@@ -466,221 +444,222 @@ h1,
 h2,
 h3,
 h4 {
-  font-weight: 800;
+	font-weight: 800;
 }
 
 h5,
 h6 {
-  font-weight: 400;
+	font-weight: 400;
 }
 
 /** Links */
 a {
-  color: var(--link-color);
-  text-decoration: none;
+	color: var(--link-color);
+	text-decoration: none;
 }
 
 a:visited {
-  /*! color: #1756a9; */
+	/*! color: #1756a9; */
 }
 
 a:hover {
-  color: var(--link-color-hover);
-  text-decoration: underline;
+	color: var(--link-color-hover);
+	text-decoration: underline;
 }
 
 /** Blockquotes */
 
 .e-content blockquote {
-  margin-top: var(--spacing);
-  margin-bottom: var(--spacing);
+	margin-top: var(--spacing);
+	margin-bottom: var(--spacing);
 }
 
 blockquote {
-  border-left: 2px solid var(--ui-color);
-  padding-left: var(--spacing);
-  padding-top: var(--spacing);
-  padding-bottom: var(--spacing);
+	border-left: 2px solid var(--ui-color);
+	padding-left: var(--spacing);
+	padding-top: var(--spacing);
+	padding-bottom: var(--spacing);
 }
 
 /** Code formatting */
 pre,
 code {
-  font-size: var(--font-code-size);
-  border: 1px solid var(--code-border-color);
-  border-radius: 3px;
-  background-color: var(--code-background-color);
+	font-size: var(--font-code-size);
+	border: 1px solid var(--code-border-color);
+	border-radius: 3px;
+	background-color: var(--code-background-color);
 }
 
 code {
-  padding: 1px 5px;
+	padding: 1px 5px;
 
-  /* font-family: var(--font-mono);
+	/* font-family: var(--font-mono);
   font-size: var(--font-mono-size);
   letter-spacing: var(--font-mono-letter-spacing);
   line-height: var(--font-mono-line-height);
   -moz-osx-font-smoothing: var(--font-mono-smoothing-moz);
   -webkit-font-smoothing: var(--font-mono-smoothing-webkit); */
 
-  font-family: var(--font-code);
-  -moz-osx-font-smoothing: var(--font-code-smoothing-moz);
-  -webkit-font-smoothing: var(--font-code-smoothing-webkit);
-  font-size: var(--font-code-size);
-  tab-size: 2;
+	font-family: var(--font-code);
+	-moz-osx-font-smoothing: var(--font-code-smoothing-moz);
+	-webkit-font-smoothing: var(--font-code-smoothing-webkit);
+	font-size: var(--font-code-size);
+	tab-size: 2;
 }
 
 pre {
-  padding: 8px 12px;
-  overflow-x: scroll;
+	padding: 8px 12px;
+	overflow-x: scroll;
 }
 
 br + code,
 .post-list p > code:first-child {
-  margin-left: -0.8ex;
+	margin-left: -0.8ex;
 }
 
 br + code {
-  margin-top: 0.5ex;
-  margin-bottom: 0.5ex;
-  display: inline-block;
+	margin-top: 0.5ex;
+	margin-bottom: 0.5ex;
+	display: inline-block;
 }
 
 pre > code {
-  display: block;
-  text-align: left;
-  border: 0;
-  padding-right: 0;
-  padding-left: 0;
+	display: block;
+	text-align: left;
+	border: 0;
+	padding-right: 0;
+	padding-left: 0;
 }
 
 .e-content > pre {
-  margin-top: var(--spacing);
-  margin-bottom: var(--spacing-2);
+	margin-top: var(--spacing);
+	margin-bottom: var(--spacing-2);
 }
 
 /** Wrapper */
 .wrapper {
-  margin-right: auto;
-  margin-left: auto;
-  padding-right: var(--spacing-2);
-  padding-left: var(--spacing-2);
-  max-width: var(--max-width);
+	margin-right: auto;
+	margin-left: auto;
+	padding-right: var(--spacing-2);
+	padding-left: var(--spacing-2);
+	max-width: var(--max-width);
 }
 
 @media screen and (max-width: 800px) {
-  .wrapper {
-    padding-right: var(--spacing);
-    padding-left: var(--spacing);
-    padding-top: var(--spacing);
-  }
+	.wrapper {
+		padding-right: var(--spacing);
+		padding-left: var(--spacing);
+		padding-top: var(--spacing);
+	}
 }
 
 /** Icons */
 .icon > svg {
-  display: inline-block;
-  width: 16px;
-  height: 16px;
-  vertical-align: middle;
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	vertical-align: middle;
 }
 
 .icon > svg path {
-  fill: #828282;
+	fill: #828282;
 }
 
 /** Site header */
 .site-header {
-  min-height: 56px;
-  position: relative;
-  margin-top: calc(2 * var(--spacing-2));
-  margin-bottom: var(--spacing-2);
+	min-height: 56px;
+	position: relative;
+	margin-top: calc(2 * var(--spacing-2));
+	margin-bottom: var(--spacing-2);
 }
 
 @media screen and (max-width: 800px) {
-  .site-header {
-    margin-top: var(--spacing);
-    margin-bottom: var(--spacing);
-  }
+	.site-header {
+		margin-top: var(--spacing);
+		margin-bottom: var(--spacing);
+	}
 }
 
 .site-title {
-  font-size: 1.55em;
-  line-height: 0.9em;
-  letter-spacing: -1px;
-  margin-bottom: 0;
-  float: left;
-  font-weight: 700;
-  font-family: suisse-intl, var(--font-ui);
-  -moz-osx-font-smoothing: var(--font-ui-smoothing-moz);
-  -webkit-font-smoothing: var(--font-ui-smoothing-webkit);
+	font-size: 1.55em;
+	line-height: 0.9em;
+	letter-spacing: -1px;
+	margin-bottom: 0;
+	float: left;
+	font-weight: 700;
+	/* biome-ignore lint/a11y/useGenericFontNames: @font-family! */
+	font-family: suisse-intl, var(--font-ui);
+	-moz-osx-font-smoothing: var(--font-ui-smoothing-moz);
+	-webkit-font-smoothing: var(--font-ui-smoothing-webkit);
 }
 
-.site-title,
+/* .site-title,
 .site-title:visited {
-  /*! color: #424242; */
-}
+	color: #424242;
+} */
 
 .site-nav .page-link {
-  color: var(--ui-link-color);
-  line-height: 1.7;
-  font-family: var(--font-ui);
-  text-transform: uppercase;
-  font-size: 0.85em;
-  -moz-osx-font-smoothing: var(--font-ui-smoothing-moz);
-  -webkit-font-smoothing: var(--font-ui-smoothing-webkit);
+	color: var(--ui-link-color);
+	line-height: 1.7;
+	font-family: var(--font-ui);
+	text-transform: uppercase;
+	font-size: 0.85em;
+	-moz-osx-font-smoothing: var(--font-ui-smoothing-moz);
+	-webkit-font-smoothing: var(--font-ui-smoothing-webkit);
 }
 
 .site-header > .wrapper {
-  display: flex;
-  justify-content: space-between;
+	display: flex;
+	justify-content: space-between;
 }
 
 .site-header > .wrapper .site-nav > ul {
-  display: flex;
-  flex-direction: column;
-  align-items: end;
+	display: flex;
+	flex-direction: column;
+	align-items: end;
 }
 
 /** Site footer */
 .site-footer {
-  margin-top: var(--spacing);
-  font-family: var(--font-ui);
-  -moz-osx-font-smoothing: var(--font-ui-smoothing-moz);
-  -webkit-font-smoothing: var(--font-ui-smoothing-webkit);
-  padding-bottom: var(--spacing);
-  padding-top: var(--spacing);
+	margin-top: var(--spacing);
+	font-family: var(--font-ui);
+	-moz-osx-font-smoothing: var(--font-ui-smoothing-moz);
+	-webkit-font-smoothing: var(--font-ui-smoothing-webkit);
+	padding-bottom: var(--spacing);
+	padding-top: var(--spacing);
 }
 
 .contact-list,
 .social-media-list {
-  list-style: none;
-  margin-left: 0;
+	list-style: none;
+	margin-left: 0;
 }
 
 .footer-row {
-  display: flex;
-  justify-content: center;
-  margin-left: var(--spacing-neg);
-  margin-right: var(--spacing-neg);
-  flex-wrap: wrap;
-  line-height: 1.1em;
+	display: flex;
+	justify-content: center;
+	margin-left: var(--spacing-neg);
+	margin-right: var(--spacing-neg);
+	flex-wrap: wrap;
+	line-height: 1.1em;
 }
 
 .footer-row > p.text {
-  font-family: var(--font-ui);
-  font-size: 0.7em;
-  letter-spacing: -0.03em;
-  margin-top: 0;
-  -moz-osx-font-smoothing: var(--font-ui-smoothing-moz);
-  -webkit-font-smoothing: var(--font-ui-smoothing-webkit);
+	font-family: var(--font-ui);
+	font-size: 0.7em;
+	letter-spacing: -0.03em;
+	margin-top: 0;
+	-moz-osx-font-smoothing: var(--font-ui-smoothing-moz);
+	-webkit-font-smoothing: var(--font-ui-smoothing-webkit);
 }
 
 .footer-row > p.text::before {
-  content: '/';
-  padding: 0 1ex;
+	content: "/";
+	padding: 0 1ex;
 }
 
 .footer-row > p.text:first-of-type::before {
-  content: '';
+	content: "";
 }
 
 /* @media screen and (max-width: 600px) {
@@ -692,54 +671,55 @@ pre > code {
 
 /** Page content */
 .page-content {
-  padding: var(--spacing-2) 0;
-  flex: 1;
+	padding: var(--spacing-2) 0;
+	flex: 1;
 }
 
 .page-heading {
-  font-size: clamp(18px, calc(18px + 19 * ((100vw - 320px) / 700)), 22px);
+	font-size: clamp(18px, calc(18px + 19 * ((100vw - 320px) / 700)), 22px);
 }
 
 .post-list {
-  margin-left: 0;
-  list-style: none;
+	margin-left: 0;
+	list-style: none;
 }
 
 .post-list > li {
-  margin-bottom: var(--spacing-2);
-  padding-bottom: var(--spacing-2);
+	margin-bottom: var(--spacing-2);
+	padding-bottom: var(--spacing-2);
 }
 
 .post-list > li.h-entry.photos {
-  margin-bottom: var(--spacing-2);
-  padding-bottom: var(--spacing-2);
+	margin-bottom: var(--spacing-2);
+	padding-bottom: var(--spacing-2);
 }
 
 .post-meta {
-  font-size: max(12px, 0.6em);
-  text-align: left;
-  font-family: var(--font-ui);
-  text-transform: uppercase;
-  opacity: 0.65;
-  -moz-osx-font-smoothing: var(--font-ui-smoothing-moz);
-  -webkit-font-smoothing: var(--font-ui-smoothing-webkit);
+	font-size: max(12px, 0.6em);
+	text-align: left;
+	font-family: var(--font-ui);
+	text-transform: uppercase;
+	opacity: 0.65;
+	-moz-osx-font-smoothing: var(--font-ui-smoothing-moz);
+	-webkit-font-smoothing: var(--font-ui-smoothing-webkit);
 }
 
 .h-entry h4 {
-  font-size: 0.85em;
-  text-transform: uppercase;
-  font-weight: 600;
-  font-variant-numeric: tabular-nums;
+	font-size: 0.85em;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-variant-numeric: tabular-nums;
 }
 
 .post-link {
-  display: block;
-  font-size: 24px;
+	display: block;
+	font-size: 24px;
 }
 
 /** Posts */
 .post-header {
-  margin-bottom: var(--spacing-2);
+	margin-bottom: var(--spacing-2);
+	margin-top: var(--spacing-2);
 }
 
 article > header > h1,
@@ -750,170 +730,155 @@ article > h1,
 article > h2,
 article > h3,
 article > h4 {
-  letter-spacing: -1px;
-  line-height: 1;
-  font-family: var(--font-title);
-  -moz-osx-font-smoothing: var(--font-title-smoothing-moz);
-  -webkit-font-smoothing: var(--font-title-smoothing-webkit);
-  font-variant-numeric: tabular-nums;
+	letter-spacing: -1px;
+	line-height: 1;
+	font-family: var(--font-title);
+	-moz-osx-font-smoothing: var(--font-title-smoothing-moz);
+	-webkit-font-smoothing: var(--font-title-smoothing-webkit);
+	font-variant-numeric: tabular-nums;
 }
 
 article > header > h4,
 article > h4 {
-  letter-spacing: unset;
+	letter-spacing: unset;
 }
 
 h1 {
-  --adoptive-font-size: clamp(
-    26px,
-    calc(24px + 17 * ((100vw - 320px) / 700)),
-    36px
-  );
-  font-size: var(--adoptive-font-size);
+	--adoptive-font-size: clamp(32px, calc(26px + 17 * ((100vw - 320px) / 700)), 48px);
+	font-size: var(--adoptive-font-size);
 }
 
 h2 {
-  --adoptive-font-size: clamp(
-    26px,
-    calc(24px + 17 * ((100vw - 320px) / 700)),
-    36px
-  );
-  font-size: calc(var(--adoptive-font-size) * 0.65);
+	--adoptive-font-size: clamp(28px, calc(24px + 17 * ((100vw - 320px) / 700)), 38px);
+	font-size: calc(var(--adoptive-font-size) * 0.65);
 }
 
 p + h2 {
-  margin-top: 1.25em;
+	margin-top: 1.25em;
 }
 
 h3 {
-  --adoptive-font-size: clamp(
-    26px,
-    calc(24px + 17 * ((100vw - 320px) / 700)),
-    36px
-  );
-  font-size: calc(var(--adoptive-font-size) * 0.5);
+	--adoptive-font-size: clamp(24px, calc(22px + 17 * ((100vw - 320px) / 700)), 36px);
+	font-size: calc(var(--adoptive-font-size) * 0.5);
 }
 
 p + h3 {
-  margin-top: 1em;
+	margin-top: 1em;
 }
 
 h4 {
-  font-size: 0.9em;
-  text-transform: uppercase;
-  font-weight: 600;
+	font-size: 0.9em;
+	text-transform: uppercase;
+	font-weight: 600;
 }
 
 .post-list h1 {
-  font-size: calc(var(--adoptive-font-size) * 0.75);
+	font-size: calc(var(--adoptive-font-size) * 0.75);
 }
 
 .post-meta + h1,
 .post-meta + h2 {
-  margin-top: var(--spacing-half);
-  margin-bottom: var(--spacing-2);
+	margin-top: var(--spacing-half);
+	margin-bottom: var(--spacing-2);
 }
 
 .post-content {
-  margin-bottom: var(--spacing-2);
+	margin-bottom: var(--spacing-2);
 }
 
 .wip > span.post-meta::after,
 .wip > .post-header > .post-meta::after {
-  content: ' / In Progress';
+	content: " / In Progress";
 }
 
 #post-nav {
-  padding-top: 25px;
+	padding-top: 25px;
 }
 
 #post-nav .prev {
-  padding-right: 10px;
+	padding-right: 10px;
 }
 
 video {
-  max-width: 100%;
+	max-width: 100%;
 }
 
 .post-list .e-content iframe,
 .e-content img {
-  margin-right: calc(var(--spacing-neg) * 2);
-  margin-left: calc(var(--spacing-neg) * 2);
+	margin-right: calc(var(--spacing-neg) * 2);
+	margin-left: calc(var(--spacing-neg) * 2);
 }
 
 .e-content > pre > code {
-  font-size: max(12px, calc(var(--font-code-size) * 0.9));
+	font-size: max(12px, calc(var(--font-code-size) * 0.9));
 }
 .e-content > pre {
-  margin-left: -1em;
-  margin-right: -1em;
+	margin-left: -1em;
+	margin-right: -1em;
 }
 
 @media screen and (max-width: 800px) {
-  .e-content iframe,
-  .e-content img,
-  .e-content > pre {
-    margin-left: var(--spacing-neg);
-    margin-right: var(--spacing-neg);
-  }
+	.e-content iframe,
+	.e-content img,
+	.e-content > pre {
+		margin-left: var(--spacing-neg);
+		margin-right: var(--spacing-neg);
+	}
 
-  .e-content > pre > code {
-    font-size: var(--font-code-size);
-  }
+	.e-content > pre > code {
+		font-size: var(--font-code-size);
+	}
 }
 
 .e-content iframe {
-  width: 100vw;
-  aspect-ratio: 16 / 9;
-  height: 100%;
-  max-height: 100vh;
-  --neg-spacing: min(
-    calc((100vw - var(--max-width)) / 2 * -1),
-    calc(var(--spacing-2-neg) * 2)
-  );
-  margin-left: var(--neg-spacing);
-  margin-right: var(--neg-spacing);
-  margin-bottom: var(--spacing);
+	width: 100vw;
+	aspect-ratio: 16 / 9;
+	height: 100%;
+	max-height: 100vh;
+	--neg-spacing: min(calc((100vw - var(--max-width)) / 2 * -1), calc(var(--spacing-2-neg) * 2));
+	margin-left: var(--neg-spacing);
+	margin-right: var(--neg-spacing);
+	margin-bottom: var(--spacing);
 }
 
 .post-list .e-content iframe {
-  max-width: calc(100% + 2 * var(--spacing-2));
+	max-width: calc(100% + 2 * var(--spacing-2));
 }
 
 .e-content img {
-  max-width: calc(100% + 2 * var(--spacing-2));
-  max-height: calc(100vh + 4 * var(--spacing-neg));
+	max-width: calc(100% + 2 * var(--spacing-2));
+	max-height: calc(100vh + 4 * var(--spacing-neg));
 }
 
 @media screen and (max-width: 800px) {
-  .e-content img {
-    max-width: calc(100% + var(--spacing-2));
-  }
+	.e-content img {
+		max-width: calc(100% + var(--spacing-2));
+	}
 }
 
 @media screen and (orientation: landscape) {
-  .e-content img {
-    max-height: calc(100vh + 6 * var(--spacing-neg));
-  }
+	.e-content img {
+		max-height: calc(100vh + 6 * var(--spacing-neg));
+	}
 }
 
 .e-content {
-  text-align: center;
-  font-size: var(--font-body-size);
-  letter-spacing: var(--font-body-letter-spacing);
-  line-height: var(--font-body-line-height);
-  -moz-osx-font-smoothing: var(--font-body-smoothing-moz);
-  -webkit-font-smoothing: var(--font-body-smoothing-webkit);
+	text-align: center;
+	font-size: var(--font-body-size);
+	letter-spacing: var(--font-body-letter-spacing);
+	line-height: var(--font-body-line-height);
+	-moz-osx-font-smoothing: var(--font-body-smoothing-moz);
+	-webkit-font-smoothing: var(--font-body-smoothing-webkit);
 }
 
 .post.wip .e-content {
-  text-align: center;
-  font-family: var(--font-mono);
-  font-size: var(--font-mono-size);
-  letter-spacing: var(--font-mono-letter-spacing);
-  line-height: var(--font-mono-line-height);
-  -moz-osx-font-smoothing: var(--font-mono-smoothing-moz);
-  -webkit-font-smoothing: var(--font-mono-smoothing-webkit);
+	text-align: center;
+	font-family: var(--font-mono);
+	font-size: var(--font-mono-size);
+	letter-spacing: var(--font-mono-letter-spacing);
+	line-height: var(--font-mono-line-height);
+	-moz-osx-font-smoothing: var(--font-mono-smoothing-moz);
+	-webkit-font-smoothing: var(--font-mono-smoothing-webkit);
 }
 
 .e-content p,
@@ -924,58 +889,58 @@ video {
 .e-content h4,
 .e-content h5,
 .e-content h6 {
-  text-align: left;
+	text-align: left;
 }
 
 .e-content ul {
-  list-style: '– ';
+	list-style: "– ";
 }
 
 .e-content > ul {
-  margin-left: var(--spacing);
+	margin-left: var(--spacing);
 }
 
 .carousel {
-  overflow-y: hidden;
-  overflow-x: scroll;
-  display: flex;
-  scroll-snap-type: x;
-  background-color: black;
-  padding: calc(1 * var(--spacing-2)) var(--spacing);
-  margin-left: 50%;
-  transform: translateX(-50%);
-  flex-direction: row;
-  max-height: 80vh;
-  box-sizing: border-box;
-  width: calc(100vw);
-  place-items: center;
-  place-content: flex-start;
+	overflow-y: hidden;
+	overflow-x: scroll;
+	display: flex;
+	scroll-snap-type: x;
+	background-color: black;
+	padding: calc(1 * var(--spacing-2)) var(--spacing);
+	margin-left: 50%;
+	transform: translateX(-50%);
+	flex-direction: row;
+	max-height: 80vh;
+	box-sizing: border-box;
+	width: calc(100vw);
+	place-items: center;
+	place-content: flex-start;
 }
 
 .carousel img {
-  scroll-snap-align: center;
-  max-width: calc(100% - var(--spacing-2));
-  object-fit: contain;
-  margin: 0;
-  margin-right: var(--spacing);
-  flex: 0;
-  max-height: calc(80vh - 2 * var(--spacing));
-  height: revert-layer;
+	scroll-snap-align: center;
+	max-width: calc(100% - var(--spacing-2));
+	object-fit: contain;
+	margin: 0;
+	margin-right: var(--spacing);
+	flex: 0;
+	max-height: calc(80vh - 2 * var(--spacing));
+	height: revert-layer;
 }
 
 .post-content .carousel {
-  max-height: 90vh;
+	max-height: 90vh;
 }
 
 .post-content .carousel img {
-  max-height: calc(90vh - 2 * var(--spacing));
+	max-height: calc(90vh - 2 * var(--spacing));
 }
 
 .carousel img:first-of-type {
 }
 
 .carousel img:last-of-type {
-  margin-right: 0;
+	margin-right: 0;
 }
 
 @media (orientation: landscape) {

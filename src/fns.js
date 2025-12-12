@@ -12,17 +12,16 @@ export const filter = delegateToSelf('filter')
 export const peek = x => (console.log(x), x)
 
 export const pipe =
-  (...fns) =>
-  input =>
-    fns.reduce((result, fn) => fn(result), input)
+	(...fns) =>
+	input =>
+		fns.reduce((result, fn) => fn(result), input)
 
 export const compose =
-  (...fns) =>
-  input =>
-    fns.reduceRight((result, fn) => fn(result), input)
+	(...fns) =>
+	input =>
+		fns.reduceRight((result, fn) => fn(result), input)
 
-const uniqueKeys = ar =>
-  ar.reduce((all = {}, current) => Object.assign(all, { [current]: true }), {})
+const uniqueKeys = ar => ar.reduce((all = {}, current) => Object.assign(all, { [current]: true }), {})
 
 export const unique = pipe(uniqueKeys, Object.keys)
 
@@ -32,13 +31,13 @@ export const isArray = Array.isArray
 export const length = arr => arr.length
 
 export const allPass =
-  (...preds) =>
-  data =>
-    preds.every(pred => pred(data))
+	(...preds) =>
+	data =>
+		preds.every(pred => pred(data))
 export const anyPass =
-  (...preds) =>
-  data =>
-    preds.some(pred => pred(data))
+	(...preds) =>
+	data =>
+		preds.some(pred => pred(data))
 
 export const isEmptyArray = allPass(isArray, pipe(length, equals(0)))
 
